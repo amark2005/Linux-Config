@@ -1,0 +1,95 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "~/.config/fastfetch/reactor.txt",
+    "type": "file",
+    "color": { "1": "cyan", "2": "blue" },
+    "padding": { "top": 2, "left": 2, "right": 4 }
+  },
+  "display": {
+    "separator": " ➜  ",
+    "color": { "keys": "cyan", "title": "bright_blue" },
+    "size": { "binaryPrefix": "jedec" },
+    "bar": { "charElapsed": "■", "charTotal": "-", "border": false, "width": 13 },
+    "percent": { "type": 2 }
+  },
+  "modules": [
+    // --- HEADER ---
+    {
+      "type": "title",
+      "format": "{#1}PROTOCOL_INITIATED: {#}{amar} @ {AKLAP}"
+    },
+    { "type": "custom", "format": "──────────────────────────────", "outputColor": "blue" },
+    
+    // --- SYSTEM SOFTWARE ---
+    { "type": "custom", "format": "SYSTEM_INTEGRITY", "outputColor": "bright_black" },
+    { "type": "os", "key": "{#34} OS", "format": "{2} {8}" },
+    { "type": "kernel", "key": "{#34} KER", "format": "{1} {2}" },
+    { "type": "uptime", "key": "{#34} UP", "format": "{1}d {2}h {3}m" },
+    { "type": "packages", "key": "{#34} PKG" },
+    { "type": "shell", "key": "{#34} SHL" },
+    { "type": "terminal", "key": "{#34} TRM" },
+
+    // --- INTERFACE ---
+    { "type": "custom", "format": "──────────────────────────────", "outputColor": "blue" },
+    { "type": "custom", "format": "VISUAL_INTERFACE", "outputColor": "bright_black" },
+    { "type": "de", "key": "{#34} DE" },
+    { "type": "wm", "key": "{#34} WM" },
+    { "type": "theme", "key": "{#34} THM" },
+    { "type": "icons", "key": "{#34} ICO" },
+    { "type": "font", "key": "{#34} FNT" },
+
+    // --- HARDWARE CORE ---
+    { "type": "custom", "format": "──────────────────────────────", "outputColor": "blue" },
+    { "type": "custom", "format": "HARDWARE_CORE", "outputColor": "bright_black" },
+    { 
+      "type": "host", 
+      "key": "{#36} PC", 
+      "format": "{2} {3}" 
+    },
+    { 
+      "type": "cpu", 
+      "key": "{#36} CPU", 
+      "temp": true,
+      "format": "{1} ({3}) @ {7}" 
+    },
+    { 
+      "type": "cpuusage", 
+      "key": "{#36}  ├─ LOAD", 
+      "format": "{1}" 
+    },
+    { 
+      "type": "gpu", 
+      "key": "{#36} GPU", 
+      "temp": true,
+      "format": "{2} ({3})" 
+    },
+    { 
+      "type": "memory", 
+      "key": "{#36} RAM", 
+      "format": "{1} / {2}" 
+    },
+    { 
+      "type": "swap", 
+      "key": "{#36}⇄ SWP", 
+      "format": "{1} / {2}" 
+    },
+    { 
+      "type": "disk", 
+      "key": "{#36} DSK", 
+      "showExternal": true,
+      "format": "{1} / {2} ({9})" 
+    },
+
+    // --- NETWORK & MEDIA ---
+    { "type": "custom", "format": "──────────────────────────────", "outputColor": "blue" },
+    { "type": "custom", "format": "NET_UPLINK", "outputColor": "bright_black" },
+    { "type": "localip", "key": "{#32} LIP", "compact": true },
+    { "type": "wifi", "key": "{#32}  ├─ SIG", "format": "{4}" },
+    { "type": "publicip", "key": "{#32} PIP", "timeout": 1000 },
+    
+    // --- END ---
+    { "type": "custom", "format": "──────────────────────────────", "outputColor": "blue" },
+    { "type": "colors", "symbol": "circle" }
+  ]
+}

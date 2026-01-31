@@ -1,0 +1,101 @@
+# ==========================
+# RAINBOW POWERLINE STARSHIP
+# ==========================
+
+add_newline = true
+command_timeout = 600
+
+format = """
+$os$username$hostname$directory$git_branch$git_status$fill$cmd_duration
+$python$nodejs$rust$java$character
+"""
+
+# ───── FILL ─────
+
+[fill]
+symbol = " "
+
+# ───── PROMPT SYMBOL ─────
+
+[character]
+success_symbol = "[❯](bold #a6da95)"
+error_symbol   = "[❯](bold #ed8796)"
+
+# ───── OS / USER ─────
+
+[os]
+disabled = false
+style = "bg:#24273a fg:#8aadf4"
+format = "[ $symbol ]($style)"
+
+[os.symbols]
+Fedora = ""
+
+[username]
+show_always = true
+style_user = "bg:#8aadf4 fg:#24273a"
+format = "[ $user ]($style)"
+
+[hostname]
+ssh_only = true
+style = "bg:#8aadf4 fg:#24273a"
+format = "[ @$hostname ]($style)"
+
+# ───── DIRECTORY ─────
+
+[directory]
+style = "bg:#a6da95 fg:#24273a"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+# ───── GIT ─────
+
+[git_branch]
+symbol = ""
+style = "bg:#f5a97f fg:#24273a"
+format = "[ $symbol $branch ]($style)"
+
+[git_status]
+style = "bg:#f5a97f fg:#24273a"
+format = "[ $all_status$ahead_behind ]($style)"
+
+# ───── CMD TIME ─────
+
+[cmd_duration]
+min_time = 500
+style = "bg:#c6a0f6 fg:#24273a"
+format = "[  $duration ]($style)"
+
+# ───── LANGUAGES ─────
+
+[python]
+symbol = ""
+style = "bg:#eed49f fg:#24273a"
+format = "[ $symbol $version ]($style)"
+
+[nodejs]
+symbol = ""
+style = "bg:#91d7e3 fg:#24273a"
+format = "[ $symbol $version ]($style)"
+
+[rust]
+symbol = ""
+style = "bg:#f5bde6 fg:#24273a"
+format = "[ $symbol $version ]($style)"
+
+[java]
+symbol = ""
+style = "bg:#8aadf4 fg:#24273a"
+format = "[ $symbol $version ]($style)"
+
+# ───── NOISE CONTROL ─────
+
+[package]
+disabled = true
+
+[battery]
+disabled = true
+
+[time]
+disabled = true

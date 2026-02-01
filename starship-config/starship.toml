@@ -1,101 +1,93 @@
-# ==========================
-# RAINBOW POWERLINE STARSHIP
-# ==========================
+# ~/.config/starship.toml
 
-add_newline = true
-command_timeout = 600
+palette = "catppuccin_macchiato"
 
-format = """
-$os$username$hostname$directory$git_branch$git_status$fill$cmd_duration
-$python$nodejs$rust$java$character
-"""
-
-# ───── FILL ─────
-
-[fill]
-symbol = " "
-
-# ───── PROMPT SYMBOL ─────
+[palettes.catppuccin_macchiato]
+rosewater = "#f4dbd6"
+flamingo = "#f0c6c6"
+pink = "#f5bde6"
+mauve = "#c6a0f6"
+red = "#ed8796"
+maroon = "#ee99a0"
+peach = "#f5a97f"
+yellow = "#eed49f"
+green = "#a6da95"
+teal = "#8bd5ca"
+sky = "#91d7e3"
+sapphire = "#7dc4e4"
+blue = "#8aadf4"
+lavender = "#b7bdf8"
+text = "#cad3f5"
+subtext1 = "#b8c0e0"
+subtext0 = "#a5adcb"
+overlay2 = "#939ab7"
+overlay1 = "#8087a2"
+overlay0 = "#6e738d"
+surface2 = "#5b6078"
+surface1 = "#494d64"
+surface0 = "#363a4f"
+base = "#24273a"
+mantle = "#1e2030"
+crust = "#181926"
 
 [character]
-success_symbol = "[❯](bold #a6da95)"
-error_symbol   = "[❯](bold #ed8796)"
+success_symbol = "[>](bold green) "
+error_symbol   = "[>](bold red) "
 
-# ───── OS / USER ─────
 
-[os]
+
+[status]
 disabled = false
-style = "bg:#24273a fg:#8aadf4"
-format = "[ $symbol ]($style)"
+format = "[status:$status]($style) "
+style = "bold red"
 
-[os.symbols]
-Fedora = ""
+[git_branch]
+symbol = ""
+format = "git:[$branch]($style) "
+style = "bold green"
 
-[username]
-show_always = true
-style_user = "bg:#8aadf4 fg:#24273a"
-format = "[ $user ]($style)"
+[git_status]
+staged = "[staged](green) "
+untracked = "[untracked](red) "
+modified = "[modified](yellow) "
+
+[cmd_duration]
+disabled = false
+min_time = 2000
+format = "[took:$duration]($style) "
+style = "bold yellow"
+
+[jobs]
+disabled = false
+style = "bold blue"
+format = "[jobs:$number]($style) "
 
 [hostname]
 ssh_only = true
-style = "bg:#8aadf4 fg:#24273a"
-format = "[ @$hostname ]($style)"
-
-# ───── DIRECTORY ─────
-
-[directory]
-style = "bg:#a6da95 fg:#24273a"
-format = "[ $path ]($style)"
-truncation_length = 3
-truncation_symbol = "…/"
-
-# ───── GIT ─────
-
-[git_branch]
-symbol = ""
-style = "bg:#f5a97f fg:#24273a"
-format = "[ $symbol $branch ]($style)"
-
-[git_status]
-style = "bg:#f5a97f fg:#24273a"
-format = "[ $all_status$ahead_behind ]($style)"
-
-# ───── CMD TIME ─────
-
-[cmd_duration]
-min_time = 500
-style = "bg:#c6a0f6 fg:#24273a"
-format = "[  $duration ]($style)"
-
-# ───── LANGUAGES ─────
-
-[python]
-symbol = ""
-style = "bg:#eed49f fg:#24273a"
-format = "[ $symbol $version ]($style)"
-
-[nodejs]
-symbol = ""
-style = "bg:#91d7e3 fg:#24273a"
-format = "[ $symbol $version ]($style)"
-
-[rust]
-symbol = ""
-style = "bg:#f5bde6 fg:#24273a"
-format = "[ $symbol $version ]($style)"
-
-[java]
-symbol = ""
-style = "bg:#8aadf4 fg:#24273a"
-format = "[ $symbol $version ]($style)"
-
-# ───── NOISE CONTROL ─────
-
-[package]
-disabled = true
+style = "bold mauve"
+format = "on [$hostname]($style) "
 
 [battery]
-disabled = true
+disabled = false
+
+[[battery.display]]
+threshold = 15
+style = "bold red"
 
 [time]
-disabled = true
+disabled = false
+time_format = "%H:%M"
+style = "bold surface2"
+format = "[$time]($style) "
+
+[shlvl]
+disabled = false
+format = "lvl:$shlvl "
+style = "bold yellow"
+
+[directory]
+truncation_length = 3
+truncate_to_repo = true
+style = "bold lavender"
+format = "[$path]($style) "
+read_only = "ro"

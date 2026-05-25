@@ -1,0 +1,69 @@
+2026-05-23 19:13:04.056 [info] Extension host with pid 3896 started
+2026-05-23 19:13:04.056 [info] Skipping acquiring lock for /home/amar/.config/Code - OSS/User/workspaceStorage/74f64acfc164cb8bd4577a4b23e4fd3b.
+2026-05-23 19:13:04.565 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-23 19:13:04.677 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-23 19:13:04.732 [info] ExtensionService#_doActivateExtension edwinhuish.better-comments-next, startup: false, activationEvent: 'onLanguage'
+2026-05-23 19:13:04.759 [info] ExtensionService#_doActivateExtension cschlosser.doxdocgen, startup: false, activationEvent: 'onLanguage:cpp'
+2026-05-23 19:13:04.882 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onLanguage:cpp', root cause: franneck94.c-cpp-runner
+2026-05-23 19:13:04.931 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+2026-05-23 19:13:05.733 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-23 19:13:05.742 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2026-05-23 19:13:05.875 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'onLanguage:cpp'
+2026-05-23 19:13:06.024 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-23 19:13:06.187 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-23 19:13:06.354 [info] Eager extensions activated
+2026-05-23 19:13:06.440 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-23 19:13:06.447 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-23 19:13:06.509 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2026-05-23 19:13:06.525 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2026-05-23 19:13:06.958 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-05-23 19:13:06.962 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2026-05-23 19:13:07.034 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2026-05-23 19:13:07.044 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-05-23 19:13:07.066 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2026-05-23 19:13:07.089 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2026-05-23 19:13:07.898 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-23 19:13:07.898 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-23 19:13:07.968 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-23 19:13:07.968 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-23 19:13:13.205 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-23 19:13:51.704 [error] ExtensionError: Error in extension cschlosser.doxdocgen: FAILED to handle event
+	at up.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:642:134325)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E._deliverQueue (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3333)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3667)
+	at Ew.$acceptModelChanged (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:531:110464)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:110293)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:110041)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:108823)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:107661)
+	at up.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:105736)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at ls.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at up.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:9911)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at ls.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:8082)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-05-23 19:26:41.571 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-23 19:26:41.571 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-23 19:27:06.115 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-23 19:27:06.115 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-23 19:38:29.386 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-23 19:38:29.386 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-23 19:45:22.314 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-23 19:45:22.314 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-23 19:54:01.013 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-23 19:54:01.013 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-23 19:54:01.696 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-23 19:54:01.696 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-23 19:55:50.308 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-23 19:55:50.308 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-23 19:56:11.866 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-23 19:56:11.866 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-23 19:58:00.595 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-23 19:58:00.595 [error] {"_isCancelled":true,"_emitter":null}

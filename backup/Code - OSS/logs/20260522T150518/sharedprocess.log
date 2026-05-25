@@ -1,0 +1,14 @@
+2026-05-22 15:05:30.187 [info] Getting Manifest... cadenza-tech.rainbow-blocks
+2026-05-22 15:05:30.190 [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+2026-05-22 15:05:31.126 [info] Installing extension: llvm-vs-code-extensions.vscode-clangd {"productVersion":{"version":"1.119.0","date":"2026-05-05T11:23:50-07:00"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/amar/.vscode-oss/extensions/extensions.json","path":"/home/amar/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-05-22 15:05:31.658 [info] Installing extension: cadenza-tech.rainbow-blocks {"productVersion":{"version":"1.119.0","date":"2026-05-05T11:23:50-07:00"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/amar/.vscode-oss/extensions/extensions.json","path":"/home/amar/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-05-22 15:05:34.881 [info] Extension signature verification result for llvm-vs-code-extensions.vscode-clangd: Success. Executed: true. Duration: 722ms.
+2026-05-22 15:05:35.145 [info] Extracted extension to file:///home/amar/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.6.0-universal: llvm-vs-code-extensions.vscode-clangd
+2026-05-22 15:05:35.155 [info] Renamed to /home/amar/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.6.0-universal
+2026-05-22 15:05:35.192 [info] Marked extension as removed llvm-vs-code-extensions.vscode-clangd-0.4.0-universal
+2026-05-22 15:05:35.227 [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd vscode-userdata:/home/amar/.vscode-oss/extensions/extensions.json
+2026-05-22 15:05:36.082 [info] Extension signature verification result for cadenza-tech.rainbow-blocks: Success. Executed: true. Duration: 1237ms.
+2026-05-22 15:05:36.249 [info] Extracted extension to file:///home/amar/.vscode-oss/extensions/cadenza-tech.rainbow-blocks-1.1.53-universal: cadenza-tech.rainbow-blocks
+2026-05-22 15:05:36.260 [info] Renamed to /home/amar/.vscode-oss/extensions/cadenza-tech.rainbow-blocks-1.1.53-universal
+2026-05-22 15:05:36.287 [info] Marked extension as removed cadenza-tech.rainbow-blocks-1.1.49-universal
+2026-05-22 15:05:36.323 [info] Extension installed successfully: cadenza-tech.rainbow-blocks vscode-userdata:/home/amar/.vscode-oss/extensions/extensions.json

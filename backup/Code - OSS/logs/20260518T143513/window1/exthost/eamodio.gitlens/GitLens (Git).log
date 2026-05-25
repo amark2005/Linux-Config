@@ -1,0 +1,608 @@
+2026-05-18 14:35:20.800 [error] [        114ms] [/home/amar/Code] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-05-18 14:35:20.845 [info] [         14ms] [/home/amar/Code/CAN] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-18 14:35:20.902 [info] [         35ms] [/home/amar/Code/batcheck] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-18 14:35:20.979 [info] [         14ms] [/home/amar/Code/first-contributions] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-18 14:35:20.995 [info] [         13ms] [/home/amar/Code/helotui] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-18 14:35:21.218 [error] [         60ms] [/home/amar/Code/summa] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-05-18 14:35:21.406 [info] [         27ms] [/home/amar/Code/CAN] git remote -v • completed
+2026-05-18 14:35:21.422 [info] [         12ms] [/home/amar/Code/CAN] git config --get -f /home/amar/Code/CAN/.git/gk/config gk.defaultRemote • completed
+2026-05-18 14:35:21.563 [info] [          9ms] [/home/amar/Code/batcheck] git remote -v • completed
+2026-05-18 14:35:21.587 [info] [         23ms] [/home/amar/Code/batcheck] git config --get -f /home/amar/Code/batcheck/.git/gk/config gk.defaultRemote • completed
+2026-05-18 14:35:21.831 [info] [         49ms] [/home/amar/Code/first-contributions] git remote -v • completed
+2026-05-18 14:35:21.874 [info] [         41ms] [/home/amar/Code/first-contributions] git config --get -f /home/amar/Code/first-contributions/.git/gk/config gk.defaultRemote • completed
+2026-05-18 14:35:21.937 [info] [         39ms] [/home/amar/Code/helotui] git remote -v • completed
+2026-05-18 14:35:22.014 [info] [         54ms] [/home/amar/Code/helotui] git config --get -f /home/amar/Code/helotui/.git/gk/config gk.defaultRemote • completed
+2026-05-18 14:35:56.152 [info] [         28ms] [/home/amar/Code/batcheck] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-18 14:35:56.153 [info] [         29ms] [/home/amar/Code/CAN] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-18 14:35:56.154 [info] [         29ms] [/home/amar/Code/helotui] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-18 14:35:56.177 [info] [         52ms] [/home/amar/Code/first-contributions] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-18 14:35:59.222 [error] [         30ms] [/home/amar/Code/summa/TNEB] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-05-18 14:37:51.522 [info] [         21ms] [/home/amar/Code/helotui] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • completed
+2026-05-18 14:37:51.523 [info] [         10ms] [/home/amar/Code/helotui] git config --get-regex -f /home/amar/Code/helotui/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition)$ • completed
+2026-05-18 14:37:51.535 [error] [          9ms] [/home/amar/Code/helotui] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • FAILED
+Error: fatal: bad revision '@'
+2026-05-18 14:37:51.545 [info] [          9ms] [/home/amar/Code/helotui] git symbolic-ref --short HEAD • completed
+2026-05-18 14:37:51.555 [info] [          9ms] [/home/amar/Code/helotui] git log -n1 --format=%ct -- • completed
+2026-05-18 14:37:51.572 [info] [         12ms] [/home/amar/Code/helotui] git config --get -f /home/amar/Code/helotui/.git/gk/config branch.master.gk-last-accessed • completed
+2026-05-18 14:37:51.589 [info] [         12ms] [/home/amar/Code/helotui] git config -f /home/amar/Code/helotui/.git/gk/config branch.master.gk-last-accessed 2026-05-18T09:07:51.558Z • completed
+2026-05-18 14:45:07.481 [error] [         94ms] [/home/amar/Code/summa/TNEB] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-05-18 21:16:42.275 [error] [          9ms] [/home/amar/Code/goman] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-05-18 21:18:57.405 [error] [         28ms] [/home/amar/Code/goman] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-05-18 21:39:18.128 [error] [         10ms] [/home/amar/Code] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-05-18 21:39:18.147 [info] [         13ms] [/home/amar/Code/CAN] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-18 21:39:18.164 [info] [         13ms] [/home/amar/Code/batcheck] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-18 21:39:18.178 [info] [         12ms] [/home/amar/Code/first-contributions] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-18 21:39:18.194 [info] [         13ms] [/home/amar/Code/helotui] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-18 21:39:18.209 [info] [         12ms] [/home/amar/Code/http] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-18 21:39:18.251 [info] [          9ms] [/home/amar/Code/http] git remote -v • completed
+2026-05-18 21:39:18.302 [info] [         48ms] [/home/amar/Code/http] git config --get-regex ^branch\..*\.gk- • completed
+2026-05-18 21:39:18.326 [info] [         22ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config gk.defaultRemote • completed
+2026-05-18 21:39:23.233 [info] [         10ms] [/home/amar/Code/http] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-18 21:40:12.913 [info] [         10ms] [/home/amar/Code/http] git ls-files -- main.go • completed
+2026-05-18 21:41:13.729 [info] [         14ms] [/home/amar/Code/http] git ls-files -- main.go • completed
+2026-05-18 21:41:48.236 [info] [         18ms] [/home/amar/Code/http] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • completed
+2026-05-18 21:41:48.237 [info] [          8ms] [/home/amar/Code/http] git config --get-regex -f /home/amar/Code/http/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition)$ • completed
+2026-05-18 21:41:48.250 [error] [         11ms] [/home/amar/Code/http] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • FAILED
+Error: fatal: bad revision '@'
+2026-05-18 21:41:48.262 [info] [         12ms] [/home/amar/Code/http] git symbolic-ref --short HEAD • completed
+2026-05-18 21:41:48.275 [info] [         11ms] [/home/amar/Code/http] git log -n1 --format=%ct -- • completed
+2026-05-18 21:41:48.285 [info] [          9ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-accessed • completed
+2026-05-18 21:41:48.295 [info] [          8ms] [/home/amar/Code/http] git config -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-accessed 2026-05-18T16:11:48.276Z • completed
+2026-05-18 21:42:16.554 [info] [         15ms] [/home/amar/Code/http] git ls-files -- main.go • completed
+2026-05-18 21:48:51.654 [info] [         15ms] [/home/amar/Code/http] git ls-files -- main.go • completed
+2026-05-18 21:53:09.595 [info] [         14ms] [/home/amar/Code/http] git ls-files -- main.go • completed
+2026-05-18 21:56:18.832 [info] [         14ms] [/home/amar/Code/http] git ls-files -- main.go • completed
+2026-05-18 21:57:29.931 [info] [         10ms] [/home/amar/Code/http] git ls-files -- main.go • completed
+2026-05-18 21:58:45.703 [info] [          9ms] [/home/amar/Code/http] git ls-files -- main.go • completed
+2026-05-18 21:59:48.403 [info] [         13ms] [/home/amar/Code/http] git ls-files -- main.go • completed
+2026-05-18 22:00:59.187 [info] [         10ms] [/home/amar/Code/http] git ls-files -- main.go • completed
+2026-05-18 22:01:59.487 [info] [         10ms] [/home/amar/Code/http] git ls-files -- main.go • completed
+2026-05-18 22:03:01.141 [info] [         14ms] [/home/amar/Code/http] git ls-files -- main.go • completed
+2026-05-18 22:15:02.562 [info] [         11ms] [/home/amar/Code/http] git ls-files -- main.go • completed
+2026-05-18 22:31:24.138 [info] [         15ms] [/home/amar/Code/http] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • completed
+2026-05-18 22:31:24.142 [info] [         19ms] [/home/amar/Code/http] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-18 22:31:24.153 [info] [         10ms] [/home/amar/Code/http] git config --get-regex -f /home/amar/Code/http/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition)$ • completed
+2026-05-18 22:31:24.165 [info] [          9ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-accessed • completed
+2026-05-18 22:31:24.177 [info] [         10ms] [/home/amar/Code/http] git config -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-accessed 2026-05-18T17:01:24.156Z • completed
+2026-05-18 22:31:24.187 [info] [          9ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-modified • completed
+2026-05-18 22:31:24.197 [info] [          8ms] [/home/amar/Code/http] git config -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-modified 2026-05-18T17:01:24.156Z • completed
+2026-05-18 22:31:33.915 [info] [         15ms] [/home/amar/Code/http] git ls-files -- main.go • completed
+2026-05-18 22:31:33.931 [info] [         10ms] [/home/amar/Code/http] git config --get-regex ^user\.(name|email)$ • completed
+2026-05-18 22:31:33.944 [info] [         12ms] [/home/amar/Code/http] git check-mailmap Amar Keshav <amarkeshav14@gmail.com> • completed
+2026-05-18 22:31:33.966 [info] [→1           ] (spawn) [/home/amar/Code/http] git blame --root --incremental --encoding=utf-8 -- main.go • starting...
+2026-05-18 22:31:33.978 [info] [←1       27ms] (spawn) [/home/amar/Code/http] git blame --root --incremental --encoding=utf-8 -- main.go • completed
+2026-05-18 22:31:34.023 [info] [→2           ] (spawn) [/home/amar/Code/http] git blame --root --incremental --encoding=utf-8 HEAD -- main.go • starting...
+2026-05-18 22:31:34.025 [info] [         41ms] [/home/amar/Code/http] git show --textconv HEAD:./main.go -- • completed
+2026-05-18 22:31:34.028 [info] [←2       13ms] (spawn) [/home/amar/Code/http] git blame --root --incremental --encoding=utf-8 HEAD -- main.go • completed
+2026-05-18 22:31:34.109 [info] [         15ms] [/home/amar/Code/http] git remote -v • completed
+2026-05-18 22:31:34.122 [info] [         11ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config gk.defaultRemote • completed
+2026-05-18 22:31:34.144 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:34.158 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:34.170 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:34.312 [info] [         15ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:34.326 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:34.338 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:34.382 [info] [         15ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:34.397 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:31:34.397 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:34.413 [info] [         15ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:34.536 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:34.549 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:34.563 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:34.583 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:34.594 [info] [          9ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:34.605 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:34.746 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:34.760 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:34.774 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:34.794 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:34.806 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:34.817 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:34.895 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:34.907 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:34.920 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:34.945 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:34.958 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:34.978 [info] [         18ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:35.924 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:35.938 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:35.949 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:35.968 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:35.980 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:35.991 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:36.078 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:36.091 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:36.104 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:36.140 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:36.153 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:31:36.153 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:36.164 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:36.458 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:36.469 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:36.480 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:36.512 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:36.527 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:36.541 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:37.489 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:37.502 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:37.514 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:37.532 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:37.544 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:37.555 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:38.959 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:38.968 [info] [          9ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:38.983 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:39.027 [info] [         16ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:39.040 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:31:39.041 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:39.054 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:39.998 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:40.010 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:40.030 [info] [         18ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:40.044 [info] [         10ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:40.061 [info] [         16ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:40.073 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:40.298 [info] [         17ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:40.313 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:40.328 [info] [         14ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:40.361 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:40.373 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:31:40.373 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:40.384 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:41.152 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:41.166 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:41.181 [info] [         14ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:41.196 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:41.208 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:41.220 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:41.307 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:41.320 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:41.335 [info] [         14ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:41.360 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:41.371 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:41.382 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:42.310 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:42.323 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:42.338 [info] [         14ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:42.363 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:42.373 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:42.385 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:42.997 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:43.012 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:43.028 [info] [         16ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:43.050 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:43.065 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:43.087 [info] [         21ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:43.125 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:43.143 [info] [         16ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:43.157 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:43.173 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:43.184 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:43.198 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:43.258 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:43.272 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:43.285 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:43.310 [info] [         15ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:43.320 [info] [          9ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:43.330 [info] [          9ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:44.305 [info] [         17ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:44.320 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:44.343 [info] [         23ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:44.347 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:44.361 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:44.372 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:44.711 [info] [         74ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 c692211cda0a30dcbfdf8e6f13145861757de712 -- • completed
+2026-05-18 22:31:44.715 [info] [         87ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D --summary -n1 c692211cda0a30dcbfdf8e6f13145861757de712^ -- main.go • completed
+2026-05-18 22:31:44.809 [info] [         23ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:44.830 [info] [         18ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:31:44.830 [info] [         19ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:44.847 [info] [         15ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:45.651 [info] [         15ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:45.665 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:45.676 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:45.696 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:45.709 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:45.723 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:46.523 [info] [         16ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:46.541 [info] [         16ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:46.554 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:46.583 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:46.596 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:31:46.596 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:46.608 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:47.256 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:47.269 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:47.281 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:47.302 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:47.314 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:47.326 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:47.430 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:47.444 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:47.455 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:47.485 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:47.499 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:47.512 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:47.828 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:47.845 [info] [         16ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:47.861 [info] [         14ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:47.883 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:47.898 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:47.909 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:48.001 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:48.017 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:48.029 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:48.051 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:48.065 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:48.079 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:49.039 [info] [         23ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:49.056 [info] [         16ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:49.092 [info] [         35ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:49.097 [info] [         22ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:49.117 [info] [         19ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:49.134 [info] [         15ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:50.774 [info] [         26ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:50.787 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:31:50.787 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:50.799 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:50.827 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:50.842 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:31:50.842 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:50.854 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:51.683 [info] [         15ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:51.697 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:51.709 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:51.731 [info] [         10ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:51.742 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:51.756 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:51.832 [info] [         16ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:51.847 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:51.860 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:51.873 [info] [          9ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:51.883 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:51.897 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:52.168 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:52.183 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:52.194 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:52.214 [info] [         10ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:52.225 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:52.236 [info] [          9ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:52.510 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:52.524 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:52.537 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:52.556 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:52.569 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:52.581 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:52.712 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:52.726 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:52.738 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:52.761 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:52.772 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:52.783 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:53.015 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:53.029 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:53.043 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:53.066 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:53.077 [info] [          9ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:53.087 [info] [          9ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:53.244 [info] [         17ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:53.259 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:53.271 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:53.288 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:53.300 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:53.311 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:53.879 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:53.895 [info] [         15ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:53.908 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:53.928 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:53.940 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:53.949 [info] [          8ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:53.999 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:54.012 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:54.025 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:54.049 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:54.061 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:54.073 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:54.607 [info] [         10ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:54.619 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:54.631 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:54.656 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:54.666 [info] [          9ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:54.677 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:54.735 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:54.747 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:54.760 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:54.791 [info] [         16ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:54.809 [info] [         16ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:54.826 [info] [         16ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:55.766 [info] [         15ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:55.779 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:55.790 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:55.804 [info] [          9ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:55.816 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:55.826 [info] [          9ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:56.396 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:56.411 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:56.424 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:56.459 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:56.475 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:31:56.475 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:56.488 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:56.659 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:56.674 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:31:56.674 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:56.688 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:56.709 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:56.722 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:56.734 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:57.678 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:57.690 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:57.702 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:57.725 [info] [         10ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:57.737 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:57.747 [info] [          9ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:57.934 [info] [         19ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:57.946 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:57.955 [info] [          8ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:57.994 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:58.008 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:31:58.008 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:58.021 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:58.100 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:58.113 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:58.125 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:58.145 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:58.158 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:58.186 [info] [         27ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:58.351 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:58.365 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:58.381 [info] [         15ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:58.400 [info] [         10ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:58.413 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:58.424 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:58.572 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:58.586 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:58.598 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:58.620 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:58.632 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:58.643 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:59.498 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:59.509 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:59.522 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:31:59.543 [info] [          9ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:31:59.553 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:31:59.562 [info] [          8ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:00.519 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:00.533 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:00.543 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:00.568 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:00.581 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:00.591 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:01.566 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:01.593 [info] [         26ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:01.605 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:01.632 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:01.644 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:32:01.644 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:01.678 [info] [         34ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:02.592 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:02.605 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:02.615 [info] [          9ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:02.635 [info] [          9ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:02.647 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:02.657 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:07.107 [info] [         16ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:07.121 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:07.148 [info] [         26ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:07.150 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:07.162 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:07.184 [info] [         21ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:07.185 [info] [         10ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:07.195 [info] [          9ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:07.207 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:07.232 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:07.244 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:07.264 [info] [         19ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:08.124 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:08.139 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:08.153 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:08.268 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:08.285 [info] [         16ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:08.300 [info] [         14ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:11.065 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:11.077 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:11.088 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:11.128 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:11.138 [info] [          9ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:32:11.138 [info] [          9ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:11.150 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:11.234 [info] [         15ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:11.249 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:11.261 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:11.278 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:11.290 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:11.303 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:11.402 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:11.418 [info] [         15ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:11.430 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:11.448 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:11.464 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:11.475 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:11.537 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:11.549 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:11.561 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:11.586 [info] [          9ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:11.598 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:11.606 [info] [          8ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:12.567 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:12.579 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:12.591 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:12.616 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:12.628 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:12.640 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:18.593 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:18.605 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:32:18.605 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:18.618 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:18.702 [info] [         19ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:18.716 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:18.728 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:18.748 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:18.761 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:18.773 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:18.827 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:18.842 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:18.856 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:18.876 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:18.890 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:18.901 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:19.228 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:19.244 [info] [         15ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:19.277 [info] [         32ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:19.279 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:19.295 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:19.308 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:20.256 [info] [         15ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:20.269 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:20.281 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:20.299 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:20.311 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:20.321 [info] [          9ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:21.826 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:21.840 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:21.855 [info] [         14ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:21.890 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:21.904 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go (waiting) • completed
+2026-05-18 22:32:21.904 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:21.916 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:22.295 [info] [         10ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:22.309 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:22.325 [info] [         15ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:22.349 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:22.363 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:22.375 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:22.476 [info] [         31ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:22.523 [info] [         42ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:22.538 [info] [         14ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:22.538 [info] [         33ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:22.554 [info] [         15ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:22.568 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:22.854 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:22.865 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:22.877 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:22.901 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:22.914 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:22.925 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:22.994 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:23.008 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:23.021 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:23.042 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:23.057 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:23.069 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:24.020 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:24.032 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:24.046 [info] [         12ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:24.070 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:24.082 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:24.095 [info] [         11ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:24.534 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:24.546 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L249,249:main.go • completed
+2026-05-18 22:32:24.560 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:25.529 [info] [         19ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:25.538 [info] [         16ms] [/home/amar/Code/http] git diff --no-ext-diff --minimal -U0 -M --diff-filter=M -- main.go • completed
+2026-05-18 22:32:25.550 [info] [         20ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L1,1:main.go • completed
+2026-05-18 22:32:25.561 [info] [         21ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 22:32:25.569 [info] [         18ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:32:25.574 [error] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L252,252:main.go • FAILED
+Error: fatal: file main.go has only 250 lines
+2026-05-18 22:32:25.584 [info] [          9ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L250,250:main.go • completed
+2026-05-18 22:32:25.595 [info] [         10ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options c692211cda0a30dcbfdf8e6f13145861757de712^^{commit} • completed
+2026-05-18 22:36:55.705 [info] [         16ms] [/home/amar/Code/http] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • completed
+2026-05-18 22:36:55.710 [info] [         21ms] [/home/amar/Code/http] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-18 22:36:55.721 [info] [          9ms] [/home/amar/Code/http] git config --get-regex -f /home/amar/Code/http/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition)$ • completed
+2026-05-18 22:36:55.730 [info] [          7ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-accessed • completed
+2026-05-18 22:36:55.740 [info] [          7ms] [/home/amar/Code/http] git config -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-accessed 2026-05-18T17:06:55.722Z • completed
+2026-05-18 22:36:55.750 [info] [          9ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-modified • completed
+2026-05-18 22:36:55.761 [info] [          9ms] [/home/amar/Code/http] git config -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-modified 2026-05-18T17:06:55.722Z • completed
+2026-05-18 22:58:56.874 [info] [          9ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:00:50.305 [info] [         10ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:02:22.686 [info] [         11ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:03:07.160 [info] [         10ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:04:19.156 [info] [         11ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:05:32.859 [info] [          9ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:06:50.798 [info] [         11ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:07:58.407 [info] [         10ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:09:38.082 [info] [         13ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:10:30.440 [info] [         10ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:12:31.783 [info] [         11ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:13:31.888 [info] [         10ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:14:33.847 [info] [         11ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:15:44.140 [info] [         10ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:30:42.360 [info] [         16ms] [/home/amar/Code/http] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • completed
+2026-05-18 23:30:42.365 [info] [         21ms] [/home/amar/Code/http] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-18 23:30:42.376 [info] [         10ms] [/home/amar/Code/http] git config --get-regex -f /home/amar/Code/http/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition)$ • completed
+2026-05-18 23:30:42.391 [info] [         12ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-accessed • completed
+2026-05-18 23:30:42.406 [info] [         13ms] [/home/amar/Code/http] git config -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-accessed 2026-05-18T18:00:42.377Z • completed
+2026-05-18 23:30:42.416 [info] [          9ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-modified • completed
+2026-05-18 23:30:42.428 [info] [         10ms] [/home/amar/Code/http] git config -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-modified 2026-05-18T18:00:42.377Z • completed
+2026-05-18 23:32:29.165 [info] [         11ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:32:29.182 [info] [         13ms] [/home/amar/Code/http] git config --get-regex ^user\.(name|email)$ • completed
+2026-05-18 23:32:29.192 [info] [         10ms] [/home/amar/Code/http] git check-mailmap Amar Keshav <amarkeshav14@gmail.com> • completed
+2026-05-18 23:32:29.206 [info] [→3           ] (spawn) [/home/amar/Code/http] git blame --root --incremental --encoding=utf-8 -- Readme.md • starting...
+2026-05-18 23:32:29.211 [info] [←3       17ms] (spawn) [/home/amar/Code/http] git blame --root --incremental --encoding=utf-8 -- Readme.md • completed
+2026-05-18 23:32:29.235 [info] [→4           ] (spawn) [/home/amar/Code/http] git blame --root --incremental --encoding=utf-8 HEAD -- Readme.md • starting...
+2026-05-18 23:32:29.235 [info] [         22ms] [/home/amar/Code/http] git show --textconv HEAD:./Readme.md -- • completed
+2026-05-18 23:32:29.240 [info] [←4       12ms] (spawn) [/home/amar/Code/http] git blame --root --incremental --encoding=utf-8 HEAD -- Readme.md • completed
+2026-05-18 23:32:29.251 [info] [         10ms] [/home/amar/Code/http] git remote -v • completed
+2026-05-18 23:32:29.263 [info] [         11ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config gk.defaultRemote • completed
+2026-05-18 23:32:29.281 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 23:32:29.296 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md • completed
+2026-05-18 23:32:29.310 [info] [         13ms] [/home/amar/Code/http] git rev-parse --verify --end-of-options 85c74c9060e7eef582e811a86991cea7042acae9^^{commit} • completed
+2026-05-18 23:32:29.504 [info] [         18ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D --summary -n1 85c74c9060e7eef582e811a86991cea7042acae9^ -- Readme.md • completed
+2026-05-18 23:32:29.507 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 85c74c9060e7eef582e811a86991cea7042acae9 -- • completed
+2026-05-18 23:32:30.460 [info] [         11ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 23:32:30.472 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md (waiting) • completed
+2026-05-18 23:32:30.472 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md • completed
+2026-05-18 23:32:31.446 [info] [         17ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 23:32:31.463 [info] [         16ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md (waiting) • completed
+2026-05-18 23:32:31.463 [info] [         16ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md • completed
+2026-05-18 23:33:40.708 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 23:33:40.722 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md (waiting) • completed
+2026-05-18 23:33:40.722 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md • completed
+2026-05-18 23:33:40.899 [info] [         13ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-18 23:33:41.686 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 23:33:41.699 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md • completed
+2026-05-18 23:33:41.726 [info] [          9ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 23:33:41.736 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md • completed
+2026-05-18 23:33:47.952 [info] [         18ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 23:33:47.965 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md • completed
+2026-05-18 23:33:50.662 [info] [         10ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 23:33:50.678 [info] [         14ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md • completed
+2026-05-18 23:34:18.906 [info] [         13ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 23:34:18.921 [info] [         13ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md • completed
+2026-05-18 23:34:20.664 [info] [         16ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 23:34:20.678 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md • completed
+2026-05-18 23:34:20.734 [info] [         16ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 23:34:20.746 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md (waiting) • completed
+2026-05-18 23:34:20.746 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md • completed
+2026-05-18 23:34:21.689 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 23:34:21.702 [info] [         12ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md • completed
+2026-05-18 23:34:21.735 [info] [         12ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 23:34:21.747 [info] [         10ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md • completed
+2026-05-18 23:34:27.360 [info] [         14ms] [/home/amar/Code/http] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-05-18 23:34:27.372 [info] [         11ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D -n2 -L11,11:Readme.md • completed
+2026-05-18 23:34:59.080 [info] [         15ms] [/home/amar/Code/http] git cat-file commit 85c74c9060e7eef582e811a86991cea7042acae9 • completed
+2026-05-18 23:35:00.607 [info] [         11ms] [/home/amar/Code/http] git remote -v • completed
+2026-05-18 23:37:29.191 [info] [         20ms] [/home/amar/Code/http] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • completed
+2026-05-18 23:37:29.195 [info] [         24ms] [/home/amar/Code/http] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-18 23:37:29.208 [info] [         11ms] [/home/amar/Code/http] git config --get-regex -f /home/amar/Code/http/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition)$ • completed
+2026-05-18 23:37:29.218 [info] [          9ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-accessed • completed
+2026-05-18 23:37:29.230 [info] [         10ms] [/home/amar/Code/http] git config -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-accessed 2026-05-18T18:07:29.208Z • completed
+2026-05-18 23:37:29.244 [info] [         12ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-modified • completed
+2026-05-18 23:37:29.265 [info] [         17ms] [/home/amar/Code/http] git config -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-modified 2026-05-18T18:07:29.208Z • completed

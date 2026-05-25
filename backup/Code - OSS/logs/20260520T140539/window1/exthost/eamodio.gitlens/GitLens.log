@@ -1,0 +1,61 @@
+2026-05-20 14:05:47.319 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-05-20 14:05:47.320 [info]    [            1] GitLens v17.12.2  activating in Code - OSS (1.119.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|someValue.machineId|someValue.sessionId)
+2026-05-20 14:05:47.320 [info]    [            1] GitLens v17.12.2 activated [194ms]
+2026-05-20 14:05:47.320 [info]    [   6e →    6f] GlCliGitProvider.findGit Git (2.54.0) found in /usr/bin/git [225ms]
+2026-05-20 14:05:47.320 [info]    [   6e →    95] GlCliGitProvider.repositorySearch(/home/amar/Code) searching (depth=1)...
+2026-05-20 14:05:47.320 [error]   [GIT          ] [/home/amar/Code] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any of the parent directories): .git [152ms]
+2026-05-20 14:05:47.330 [info]    [IPC          ] Server started on http://127.0.0.1:35683
+2026-05-20 14:05:47.347 [info]    [GIT      15ms] [/home/amar/Code/CAN] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [15ms]
+2026-05-20 14:05:47.352 [info]    [   6e →    95] GlCliGitProvider.repositorySearch(/home/amar/Code) found repository in '/home/amar/Code/CAN'
+2026-05-20 14:05:47.372 [info]    [GIT      13ms] [/home/amar/Code/batcheck] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [13ms]
+2026-05-20 14:05:47.374 [info]    [   6e →    95] GlCliGitProvider.repositorySearch(/home/amar/Code) found repository in '/home/amar/Code/batcheck'
+2026-05-20 14:05:47.389 [info]    [GIT      12ms] [/home/amar/Code/first-contributions] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [12ms]
+2026-05-20 14:05:47.391 [info]    [   6e →    95] GlCliGitProvider.repositorySearch(/home/amar/Code) found repository in '/home/amar/Code/first-contributions'
+2026-05-20 14:05:47.405 [info]    [GIT      12ms] [/home/amar/Code/helotui] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [12ms]
+2026-05-20 14:05:47.416 [info]    [   6e →    95] GlCliGitProvider.repositorySearch(/home/amar/Code) found repository in '/home/amar/Code/helotui'
+2026-05-20 14:05:47.492 [info]    [GIT      72ms] [/home/amar/Code/http] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [72ms]
+2026-05-20 14:05:47.526 [info]    [   6e →    95] GlCliGitProvider.repositorySearch(/home/amar/Code) found repository in '/home/amar/Code/http'
+2026-05-20 14:05:47.571 [info]    [GIT      26ms] [/home/amar/Code/http] git ls-files -- Readme.md [26ms]
+2026-05-20 14:05:47.592 [info]    [GIT      15ms] [/home/amar/Code/http] git config --get-regex ^user\.(name|email)$ [15ms]
+2026-05-20 14:05:47.640 [info]    [GIT      47ms] [/home/amar/Code/http] git check-mailmap Amar Keshav <amarkeshav14@gmail.com> [47ms]
+2026-05-20 14:05:47.660 [info]    [GIT:→1       ] (spawn) [/home/amar/Code/http] git blame --root --incremental --encoding=utf-8 -- Readme.md · starting...
+2026-05-20 14:05:47.697 [info]    [GIT:←1   48ms] (spawn) [/home/amar/Code/http] git blame --root --incremental --encoding=utf-8 -- Readme.md [48ms]
+2026-05-20 14:05:47.727 [info]    [GIT      25ms] [/home/amar/Code/http] git show --textconv HEAD:./Readme.md -- [25ms]
+2026-05-20 14:05:47.818 [info]    [GIT      61ms] [/home/amar/Code/CAN] git remote -v [61ms]
+2026-05-20 14:05:47.824 [warning] [  10f →   110] LineAnnotationController.refresh • pull request queries took too long (over 100 ms)
+2026-05-20 14:05:48.023 [info]    [GIT     137ms] [/home/amar/Code/CAN] git config --get -f /home/amar/Code/CAN/.git/gk/config gk.defaultRemote [137ms]
+2026-05-20 14:05:48.134 [info]    [GIT      47ms] [/home/amar/Code/batcheck] git remote -v [47ms]
+2026-05-20 14:05:48.210 [info]    [GIT      56ms] [/home/amar/Code/batcheck] git config --get -f /home/amar/Code/batcheck/.git/gk/config gk.defaultRemote [56ms]
+2026-05-20 14:05:48.283 [info]    [GIT      33ms] [/home/amar/Code/first-contributions] git remote -v [33ms]
+2026-05-20 14:05:48.355 [info]    [GIT      70ms] [/home/amar/Code/first-contributions] git config --get -f /home/amar/Code/first-contributions/.git/gk/config gk.defaultRemote [70ms]
+2026-05-20 14:05:48.389 [info]    [GIT      10ms] [/home/amar/Code/helotui] git remote -v [10ms]
+2026-05-20 14:05:48.471 [info]    [GIT      50ms] [/home/amar/Code/helotui] git config --get -f /home/amar/Code/helotui/.git/gk/config gk.defaultRemote [50ms]
+2026-05-20 14:05:48.503 [info]    [GIT      24ms] [/home/amar/Code/http] git remote -v [24ms]
+2026-05-20 14:05:48.623 [info]    [GIT     117ms] [/home/amar/Code/http] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [117ms]
+2026-05-20 14:05:48.645 [info]    [GIT      20ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config gk.defaultRemote [20ms]
+2026-05-20 14:05:48.750 [info]    [GIT      68ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D --summary -n1 85c74c9060e7eef582e811a86991cea7042acae9^ -- Readme.md [68ms]
+2026-05-20 14:05:48.751 [info]    [GIT      74ms] [/home/amar/Code/http] git config --get-regex ^user\.(name|email)$ [74ms]
+2026-05-20 14:05:48.810 [info]    [GIT      58ms] [/home/amar/Code/http] git check-mailmap Amar Keshav <amarkeshav14@gmail.com> [58ms]
+2026-05-20 14:05:48.844 [info]    [GIT      33ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 85c74c9060e7eef582e811a86991cea7042acae9 -- [33ms]
+2026-05-20 14:05:48.893 [info]    [GIT      11ms] [/home/amar/Code/http] git remote -v [11ms]
+2026-05-20 14:05:49.080 [warning] [   b0 →    b1] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///home/amar/Code/CAN)) returned ScmRepository(file:///home/amar/Code/CAN) [*1726ms] (slow)
+2026-05-20 14:05:49.101 [warning] [   b6 →    b7] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///home/amar/Code/batcheck)) returned ScmRepository(file:///home/amar/Code/batcheck) [*1726ms] (slow)
+2026-05-20 14:05:49.101 [warning] [   bc →    bd] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///home/amar/Code/first-contributions)) returned ScmRepository(file:///home/amar/Code/first-contributions) [*1709ms] (slow)
+2026-05-20 14:05:49.101 [warning] [   c2 →    c3] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///home/amar/Code/helotui)) returned ScmRepository(file:///home/amar/Code/helotui) [*1684ms] (slow)
+2026-05-20 14:05:49.101 [warning] [   6e →    cc] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///home/amar/Code/CAN)) returned ScmRepository(file:///home/amar/Code/CAN) [*1572ms] (slow)
+2026-05-20 14:05:49.102 [warning] [   6e →    cd] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///home/amar/Code/batcheck)) returned ScmRepository(file:///home/amar/Code/batcheck) [*1572ms] (slow)
+2026-05-20 14:05:49.102 [warning] [   6e →    ce] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///home/amar/Code/first-contributions)) returned ScmRepository(file:///home/amar/Code/first-contributions) [*1572ms] (slow)
+2026-05-20 14:05:49.102 [warning] [   6e →    cf] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///home/amar/Code/helotui)) returned ScmRepository(file:///home/amar/Code/helotui) [*1572ms] (slow)
+2026-05-20 14:05:50.152 [warning] [  137 →   15d] GlCliGitProvider.getRemoteVisibility(remote=git@github.com:amark2005/avgeek-api.git) returned public [*1505ms] (slow)
+2026-05-20 14:05:50.153 [warning] [  12a →   137] GlCliGitProvider.visibility(e=/home/amar/Code/http) returned public [*2078ms] (slow)
+2026-05-20 14:06:17.246 [error]   [GIT          ] [/home/amar/Code/STEM] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any of the parent directories): .git [13ms]
+2026-05-20 14:06:22.581 [info]    [GIT      31ms] [/home/amar/Code/helotui] git rev-list --max-parents=0 HEAD -- [31ms]
+2026-05-20 14:06:22.581 [info]    [GIT      33ms] [/home/amar/Code/batcheck] git rev-list --max-parents=0 HEAD -- [33ms]
+2026-05-20 14:06:22.581 [info]    [GIT      34ms] [/home/amar/Code/CAN] git rev-list --max-parents=0 HEAD -- [34ms]
+2026-05-20 14:06:22.582 [info]    [GIT      32ms] [/home/amar/Code/http] git rev-list --max-parents=0 HEAD -- [32ms]
+2026-05-20 14:06:22.598 [info]    [GIT      49ms] [/home/amar/Code/first-contributions] git rev-list --max-parents=0 HEAD -- [49ms]
+2026-05-20 14:06:22.602 [info]    [  1c5 →   1c6] LocalSharedGkStorageLocationProvider.load Using shared GK path: /home/amar/.local/share/gk
+2026-05-20 14:08:17.554 [info]    [GIT      21ms] [/home/amar/Code/http] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [21ms]
+2026-05-20 14:08:17.555 [info]    [GIT      10ms] [/home/amar/Code/http] git config --get-regex -f /home/amar/Code/http/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition)$ [10ms]
+2026-05-20 14:08:17.569 [info]    [GIT       9ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-accessed [9ms]
+2026-05-20 14:08:17.581 [info]    [GIT       9ms] [/home/amar/Code/http] git config -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-accessed 2026-05-20T08:38:17.560Z [9ms]

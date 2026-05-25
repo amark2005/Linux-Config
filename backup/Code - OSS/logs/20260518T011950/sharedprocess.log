@@ -1,0 +1,24 @@
+2026-05-18 01:24:25.942 [info] Getting Manifest... lucasfa.octaveexecution
+2026-05-18 01:24:27.526 [info] Installing extension: lucasfa.octaveexecution {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/amar/.vscode-oss/extensions/extensions.json","path":"/home/amar/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.119.0","date":"2026-05-05T11:23:50-07:00"}}
+2026-05-18 01:24:34.907 [info] Extension signature verification result for lucasfa.octaveexecution: Success. Executed: true. Duration: 2553ms.
+2026-05-18 01:24:35.063 [info] Extracted extension to file:///home/amar/.vscode-oss/extensions/lucasfa.octaveexecution-0.7.6-universal: lucasfa.octaveexecution
+2026-05-18 01:24:35.077 [info] Renamed to /home/amar/.vscode-oss/extensions/lucasfa.octaveexecution-0.7.6-universal
+2026-05-18 01:24:35.167 [info] Extension installed successfully: lucasfa.octaveexecution vscode-userdata:/home/amar/.vscode-oss/extensions/extensions.json
+2026-05-18 01:30:17.802 [info] Getting Manifest... fortran-lang.linter-gfortran
+2026-05-18 01:30:18.971 [info] Installing extension: fortran-lang.linter-gfortran {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/amar/.vscode-oss/extensions/extensions.json","path":"/home/amar/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.119.0","date":"2026-05-05T11:23:50-07:00"}}
+2026-05-18 01:30:24.726 [info] Extension signature verification result for fortran-lang.linter-gfortran: Success. Executed: true. Duration: 1449ms.
+2026-05-18 01:30:24.950 [info] Extracted extension to file:///home/amar/.vscode-oss/extensions/fortran-lang.linter-gfortran-4.0.0-universal: fortran-lang.linter-gfortran
+2026-05-18 01:30:24.962 [info] Renamed to /home/amar/.vscode-oss/extensions/fortran-lang.linter-gfortran-4.0.0-universal
+2026-05-18 01:30:25.059 [info] Extension installed successfully: fortran-lang.linter-gfortran vscode-userdata:/home/amar/.vscode-oss/extensions/extensions.json
+2026-05-18 01:30:26.822 [info] Getting Manifest... edwinhuish.better-comments-next
+2026-05-18 01:30:27.487 [info] Installing extension: edwinhuish.better-comments-next {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/amar/.vscode-oss/extensions/extensions.json","path":"/home/amar/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.119.0","date":"2026-05-05T11:23:50-07:00"}}
+2026-05-18 01:30:34.140 [info] Extension signature verification result for edwinhuish.better-comments-next: Success. Executed: true. Duration: 2264ms.
+2026-05-18 01:30:35.466 [info] Extracted extension to file:///home/amar/.vscode-oss/extensions/edwinhuish.better-comments-next-3.4.9-universal: edwinhuish.better-comments-next
+2026-05-18 01:30:35.549 [info] Renamed to /home/amar/.vscode-oss/extensions/edwinhuish.better-comments-next-3.4.9-universal
+2026-05-18 01:30:35.614 [info] Extension installed successfully: edwinhuish.better-comments-next vscode-userdata:/home/amar/.vscode-oss/extensions/extensions.json
+2026-05-18 01:30:53.479 [info] Getting Manifest... cadenza-tech.rainbow-blocks
+2026-05-18 01:30:54.528 [info] Installing extension: cadenza-tech.rainbow-blocks {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/amar/.vscode-oss/extensions/extensions.json","path":"/home/amar/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.119.0","date":"2026-05-05T11:23:50-07:00"}}
+2026-05-18 01:30:59.332 [info] Extension signature verification result for cadenza-tech.rainbow-blocks: Success. Executed: true. Duration: 1440ms.
+2026-05-18 01:30:59.445 [info] Extracted extension to file:///home/amar/.vscode-oss/extensions/cadenza-tech.rainbow-blocks-1.1.49-universal: cadenza-tech.rainbow-blocks
+2026-05-18 01:30:59.455 [info] Renamed to /home/amar/.vscode-oss/extensions/cadenza-tech.rainbow-blocks-1.1.49-universal
+2026-05-18 01:30:59.551 [info] Extension installed successfully: cadenza-tech.rainbow-blocks vscode-userdata:/home/amar/.vscode-oss/extensions/extensions.json

@@ -1,0 +1,18 @@
+Code - OSS
+btop
+cava
+fastfetch
+firejail
+ghostty
+go
+mako
+mpv
+nvim
+pavucontrol.ini
+pulse
+starship.toml
+sway
+Thunar
+uv
+waybar
+wofi

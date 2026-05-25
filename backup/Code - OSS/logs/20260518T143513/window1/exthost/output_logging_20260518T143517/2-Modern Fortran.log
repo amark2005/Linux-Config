@@ -1,0 +1,11 @@
+[INFO - 14:35:18] Extension Name: Modern Fortran
+[INFO - 14:35:18] Extension Version: 4.0.0
+[INFO - 14:35:18] Linter set to: "gfortran"
+[INFO - 14:35:18] Formatter set to: "findent"
+[INFO - 14:35:18] Autocomplete set to: "fortls"
+[INFO - 14:35:18] Hover set to: "fortls"
+[INFO - 14:35:18] Symbols set to: "fortls"
+[INFO - 14:35:19] [lint] Found GNU Fortran version 16.1.1
+[INFO - 14:35:19] [build.single] Compiler query command line: /usr/bin/gfortran -fsyntax-only -cpp -fdiagnostics-plain-output -ffree-line-length-none -ffixed-line-length-none -Wall -J /home/amar/.config/Code - OSS/User/workspaceStorage/74f64acfc164cb8bd4577a4b23e4fd3b/fortran-lang.linter-gfortran/include -ffree-form -o /home/amar/Code/summa/rk.f90.o /home/amar/Code/summa/rk.f90
+[INFO - 14:35:25] [lsp.client] fortls disabled in settings
+[INFO - 14:35:39] [build.single] Compiler query command line: /usr/bin/gfortran -fsyntax-only -cpp -fdiagnostics-plain-output -ffree-line-length-none -ffixed-line-length-none -Wall -J /home/amar/.config/Code - OSS/User/workspaceStorage/74f64acfc164cb8bd4577a4b23e4fd3b/fortran-lang.linter-gfortran/include -ffree-form -o /home/amar/Code/summa/rk.f90.o /home/amar/Code/summa/rk.f90

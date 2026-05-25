@@ -1,0 +1,1 @@
+2026-05-18 01:20:32.401 [error] Failed to set sticky bit on /tmp/amar-code-oss-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/amar-code-oss-zsh'

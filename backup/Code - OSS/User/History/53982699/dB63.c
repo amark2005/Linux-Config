@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<string.h>
+int main(){
+
+  printf("Enter your name: ");
+  char *name=malloc(50 * sizeof(char));
+  scanf("%s",name);
+  fgets(name, int n, FILE *restrict stream)
+  printf("%s\n",name);
+  free(name);
+  name=NULL;
+
+  return 0;
+}

@@ -1,0 +1,153 @@
+set $mod Mod4
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+font pango:JetBrainsMono Nerd Font 10
+exec autotiling-rs
+output eDP-1 scale 1.25
+
+exec_always waybar &>/dev/null 2>&1
+exec_always mako
+
+output * bg ~/Pictures/pagani.jpg fill
+
+gaps inner 8
+gaps outer 4
+
+default_border pixel 2
+default_floating_border pixel 2
+
+client.focused          #7aa2f7 #7aa2f7 #ffffff #7aa2f7
+client.unfocused        #1f2335 #1f2335 #a9b1d6 #1f2335
+
+input type:keyboard {
+    xkb_numlock enabled
+}
+
+input "type:touchpad" {
+    tap enabled
+    natural_scroll enabled
+    dwt enabled
+    pointer_accel 0.3
+}
+
+floating_modifier $mod normal
+
+exec swayidle \
+timeout 120 'swaylock \
+--screenshots \
+--clock \
+--indicator \
+--effect-blur 7x5 \
+--effect-vignette 0.5:0.5 \
+--ring-color 7aa2f7 \
+--key-hl-color 7aa2f7 \
+--line-color 00000000 \
+--inside-color 1a1b26aa \
+--separator-color 00000000 \
+--text-color c0caf5 \
+--grace 2 \
+-f' \
+timeout 150 'systemctl suspend' \
+before-sleep 'swaylock \
+--screenshots \
+--clock \
+--indicator \
+--effect-blur 7x5 \
+--effect-vignette 0.5:0.5 \
+--ring-color 7aa2f7 \
+--key-hl-color 7aa2f7 \
+--line-color 00000000 \
+--inside-color 1a1b26aa \
+--separator-color 00000000 \
+--text-color c0caf5 \
+--grace 2 \
+-f'
+
+bindsym Ctrl+Mod1+Left move left
+bindsym Ctrl+Mod1+Right move right
+bindsym Ctrl+Mod1+Up move up
+bindsym Ctrl+Mod1+Down move down
+
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
+bindsym $mod+0 workspace 10
+
+bindsym $mod+Mod1+1 move container to workspace 1
+bindsym $mod+Mod1+2 move container to workspace 2
+bindsym $mod+Mod1+3 move container to workspace 3
+bindsym $mod+Mod1+4 move container to workspace 4
+bindsym $mod+Mod1+5 move container to workspace 5
+bindsym $mod+Mod1+6 move container to workspace 6
+bindsym $mod+Mod1+7 move container to workspace 7
+bindsym $mod+Mod1+8 move container to workspace 8
+bindsym $mod+Mod1+9 move container to workspace 9
+bindsym $mod+Mod1+0 move container to workspace 10
+
+bindsym Mod4+Right workspace next
+bindsym Mod4+Left workspace prev
+bindsym $mod+d workspace desktop
+bindsym $mod+m kill
+
+bindsym $mod+space exec wofi --show drun
+bindsym Ctrl+Escape exec wofi --show run
+bindsym $mod+c exec "echo | wofi --dmenu | xargs -I{} sh -c 'echo {} | bc -l | wl-copy'"
+
+
+#Qalc 
+bindsym $mod+q exec "ghostty -e qalc"
+
+bindsym $mod+f fullscreen toggle
+
+bindsym $mod+l exec swaylock \
+--screenshots \
+--clock \
+--indicator \
+--effect-blur 7x5 \
+--effect-vignette 0.5:0.5 \
+--ring-color 7aa2f7 \
+--key-hl-color 7aa2f7 \
+--line-color 00000000 \
+--inside-color 1a1b26aa \
+--separator-color 00000000 \
+--text-color c0caf5 \
+--grace 2 \
+-f && loginctl lock-session
+
+
+bindsym $mod+Return exec ghostty
+
+# =========================
+# MEDIA KEYS
+# =========================
+
+bindsym XF86AudioRaiseVolume exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
+bindsym XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
+bindsym F5 exec wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
+
+bindsym XF86MonBrightnessUp exec brightnessctl set +10%
+bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
+
+# =========================
+# SCREENSHOTS
+# =========================
+
+set $shotdir ~/Pictures/screenshots
+
+# Print = area select
+bindsym Print exec grim -g "$(slurp)" - | tee "$shotdir/screenshot-$(date +%F-%H-%M-%S).png" | wl-copy
+
+# Shift+Print = fullscreen
+bindsym Shift+Print exec grim - | tee "$shotdir/screenshot-$(date +%F-%H-%M-%S).png" | wl-copy
+
+# Super+I = toggle idle inhibitor (keep screen awake)
+# Keep awake ON
+bindsym $mod+i inhibit_idle open, exec notify-send "󰅶 Idle Inhibitor" "Screen sleep disabled"
+
+# Keep awake OFF
+bindsym $mod+Shift+i inhibit_idle none, exec notify-send "󰛑 Idle Inhibitor" "Screen sleep enabled"

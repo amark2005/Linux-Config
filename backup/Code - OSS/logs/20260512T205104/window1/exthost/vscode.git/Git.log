@@ -1,0 +1,57 @@
+2026-05-12 20:51:10.902 [info] [main] Log level: Info
+2026-05-12 20:51:10.902 [info] [main] Validating found git in: "git"
+2026-05-12 20:51:10.902 [info] [main] Using git "2.54.0" from "git"
+2026-05-12 20:51:10.902 [info] [Model][doInitialScan] Initial repository scan started
+2026-05-12 20:51:10.902 [info] > git rev-parse --show-toplevel [9ms]
+2026-05-12 20:51:10.902 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-12 20:51:10.902 [info] > git rev-parse --show-toplevel [9ms]
+2026-05-12 20:51:10.902 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-12 20:51:10.902 [info] > git rev-parse --show-toplevel [5ms]
+2026-05-12 20:51:10.902 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-12 20:51:10.911 [info] > git rev-parse --show-toplevel [3ms]
+2026-05-12 20:51:10.911 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-12 20:51:10.923 [info] > git rev-parse --show-toplevel [4ms]
+2026-05-12 20:51:10.935 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms]
+2026-05-12 20:51:11.642 [info] [Model][openRepository] Opened repository (path): /home/amar/Code/first-contributions
+2026-05-12 20:51:11.642 [info] [Model][openRepository] Opened repository (real path): /home/amar/Code/first-contributions
+2026-05-12 20:51:11.643 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-12 20:51:11.654 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-05-12 20:51:12.072 [info] > git config --get --local core.virtualfilesystem [418ms]
+2026-05-12 20:51:12.073 [warning] [Git][config] git config failed: Failed to execute git
+2026-05-12 20:51:12.230 [info] > git rev-parse --show-toplevel [238ms]
+2026-05-12 20:51:12.230 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-12 20:51:12.230 [info] > git config --get commit.template [245ms]
+2026-05-12 20:51:12.312 [info] > git rev-parse --show-toplevel [65ms]
+2026-05-12 20:51:12.312 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-05-12 20:51:12.333 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/amar refs/remotes/amar [32ms]
+2026-05-12 20:51:12.406 [info] > git status -z -uall [14ms]
+2026-05-12 20:51:12.409 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-05-12 20:51:12.444 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/amar refs/remotes/amar [18ms]
+2026-05-12 20:51:12.467 [info] > git config --get --local branch.amar.vscode-merge-base [17ms]
+2026-05-12 20:51:12.475 [info] > git config --get commit.template [32ms]
+2026-05-12 20:51:12.495 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [21ms]
+2026-05-12 20:51:12.540 [info] > git merge-base refs/heads/amar refs/remotes/origin/amar [37ms]
+2026-05-12 20:51:12.548 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/amar refs/remotes/amar [61ms]
+2026-05-12 20:51:12.560 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 2c3c1f1979d0459a43d31f3424d0f4a2bf354246...refs/remotes/origin/amar -- [13ms]
+2026-05-12 20:51:12.596 [info] > git status -z -uall [14ms]
+2026-05-12 20:51:12.596 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-05-12 20:51:24.753 [info] > git fetch [5485ms]
+2026-05-12 20:51:24.779 [info] > git config --get commit.template [14ms]
+2026-05-12 20:51:24.782 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/amar refs/remotes/amar [5ms]
+2026-05-12 20:51:24.804 [info] > git status -z -uall [11ms]
+2026-05-12 20:51:24.809 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-05-12 20:54:30.310 [info] > git fetch [5487ms]
+2026-05-12 20:54:30.332 [info] > git config --get commit.template [11ms]
+2026-05-12 20:54:30.334 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/amar refs/remotes/amar [4ms]
+2026-05-12 20:54:30.350 [info] > git status -z -uall [8ms]
+2026-05-12 20:54:30.352 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-05-12 20:59:22.748 [info] > git fetch [5029ms]
+2026-05-12 20:59:22.764 [info] > git config --get commit.template [8ms]
+2026-05-12 20:59:22.767 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/amar refs/remotes/amar [4ms]
+2026-05-12 20:59:22.786 [info] > git status -z -uall [10ms]
+2026-05-12 20:59:22.787 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-05-12 21:08:03.647 [info] > git fetch [3610ms]
+2026-05-12 21:08:03.667 [info] > git config --get commit.template [9ms]
+2026-05-12 21:08:03.669 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/amar refs/remotes/amar [4ms]
+2026-05-12 21:08:03.686 [info] > git status -z -uall [10ms]
+2026-05-12 21:08:03.688 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]

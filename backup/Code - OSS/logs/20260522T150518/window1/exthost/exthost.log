@@ -1,0 +1,75 @@
+2026-05-22 15:05:22.471 [info] Extension host with pid 5470 started
+2026-05-22 15:05:22.471 [info] Skipping acquiring lock for /home/amar/.config/Code - OSS/User/workspaceStorage/74f64acfc164cb8bd4577a4b23e4fd3b.
+2026-05-22 15:05:23.058 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-22 15:05:23.143 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-22 15:05:23.202 [info] ExtensionService#_doActivateExtension edwinhuish.better-comments-next, startup: false, activationEvent: 'onLanguage'
+2026-05-22 15:05:23.234 [info] ExtensionService#_doActivateExtension cadenza-tech.rainbow-blocks, startup: false, activationEvent: 'onLanguage:octave'
+2026-05-22 15:05:23.305 [info] ExtensionService#_doActivateExtension LucasFA.octaveexecution, startup: false, activationEvent: 'onLanguage:octave'
+2026-05-22 15:05:23.979 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-22 15:05:23.985 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2026-05-22 15:05:24.048 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-22 15:05:24.155 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-22 15:05:24.311 [info] Eager extensions activated
+2026-05-22 15:05:24.651 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 15:05:24.662 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 15:05:24.708 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 15:05:24.728 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 15:05:25.033 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 15:05:25.038 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 15:05:25.091 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished', root cause: franneck94.vscode-c-cpp-config
+2026-05-22 15:05:25.150 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 15:05:25.171 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 15:05:25.191 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 15:05:25.347 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-22 15:05:26.189 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 15:06:05.743 [info] ExtensionService#_doActivateExtension cschlosser.doxdocgen, startup: false, activationEvent: 'onLanguage:c'
+2026-05-22 15:06:05.924 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'onLanguage:c'
+2026-05-22 15:06:05.945 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:c'
+2026-05-22 15:10:12.491 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-22 15:10:12.492 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-22 15:11:15.592 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-22 15:11:15.592 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-22 15:11:50.476 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-22 15:11:50.476 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-22 15:49:16.541 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-22 15:49:16.541 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-22 15:49:19.223 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-22 15:49:19.223 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-22 19:21:14.953 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-22 19:21:14.953 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-22 19:21:47.062 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-22 19:21:47.062 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-22 19:38:05.309 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-22 19:38:05.309 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-22 20:32:23.165 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-22 20:32:23.165 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-22 20:32:23.166 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-22 20:32:23.166 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-22 20:32:23.166 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-22 20:32:23.166 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-22 20:32:23.167 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-22 20:32:23.167 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-22 20:32:24.708 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2026-05-22 20:32:24.708 [error] {"_isCancelled":true,"_emitter":null}
+2026-05-22 20:32:28.983 [error] ExtensionError: Error in extension cschlosser.doxdocgen: FAILED to handle event
+	at up.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:642:134325)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E._deliverQueue (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3333)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3667)
+	at Ew.$acceptModelChanged (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:531:110464)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:110293)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:110041)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:108823)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:107661)
+	at up.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:105736)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at ls.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at up.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:9911)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at ls.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:8082)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17)

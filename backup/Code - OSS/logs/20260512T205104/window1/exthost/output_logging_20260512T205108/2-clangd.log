@@ -1,0 +1,301 @@
+I[20:51:10.227] clangd version 22.1.3
+I[20:51:10.227] Features: linux
+I[20:51:10.227] PID: 2945
+I[20:51:10.227] Working directory: /home/amar/Code
+I[20:51:10.227] argv[0]: /usr/bin/clangd
+I[20:51:10.227] argv[1]: --background-index
+I[20:51:10.227] argv[2]: --clang-tidy
+I[20:51:10.227] argv[3]: --header-insertion=never
+I[20:51:10.227] argv[4]: --compile-commands-dir=/home/amar/Code
+I[20:51:10.228] Starting LSP over stdin/stdout
+I[20:51:10.228] <-- initialize(0)
+I[20:51:10.231] --> reply:initialize(0) 3 ms
+I[20:51:10.428] <-- initialized
+I[20:51:10.472] <-- textDocument/didOpen
+I[20:51:10.477] Failed to find compilation database for /home/amar/Code/apitry/batcheck.c
+I[20:51:10.477] ASTWorker building file /home/amar/Code/apitry/batcheck.c version 1 with command clangd fallback
+[/home/amar/Code/apitry]
+/usr/bin/clang -resource-dir=/usr/lib/clang/22 -- /home/amar/Code/apitry/batcheck.c
+I[20:51:10.493] --> textDocument/clangd.fileStatus
+I[20:51:10.616] Built preamble of size 461484 for file /home/amar/Code/apitry/batcheck.c version 1 in 0.12 seconds
+I[20:51:10.617] --> workspace/semanticTokens/refresh(0)
+I[20:51:10.617] Indexing c17 standard library in the context of /home/amar/Code/apitry/batcheck.c
+I[20:51:10.648] --> textDocument/publishDiagnostics
+I[20:51:10.648] --> textDocument/inactiveRegions
+I[20:51:10.648] --> textDocument/clangd.fileStatus
+I[20:51:10.758] <-- textDocument/codeAction(1)
+I[20:51:10.758] --> reply:textDocument/codeAction(1) 0 ms
+I[20:51:10.758] --> textDocument/clangd.fileStatus
+I[20:51:10.758] <-- textDocument/documentLink(2)
+I[20:51:10.759] <-- textDocument/inlayHint(3)
+I[20:51:10.759] --> reply:textDocument/documentLink(2) 0 ms
+I[20:51:10.760] --> reply:textDocument/inlayHint(3) 0 ms
+I[20:51:10.760] --> textDocument/clangd.fileStatus
+I[20:51:10.810] Indexed c17 standard library: 2981 symbols, 12 filtered
+I[20:51:10.838] <-- reply(0)
+I[20:51:10.871] <-- textDocument/documentSymbol(4)
+I[20:51:10.871] --> reply:textDocument/documentSymbol(4) 0 ms
+I[20:51:10.871] --> textDocument/clangd.fileStatus
+I[20:51:10.897] <-- $/cancelRequest
+I[20:51:10.898] <-- textDocument/codeAction(5)
+I[20:51:10.898] --> reply:textDocument/codeAction(5) 0 ms
+I[20:51:10.898] --> textDocument/clangd.fileStatus
+I[20:51:11.621] <-- textDocument/documentLink(6)
+I[20:51:11.621] --> reply:textDocument/documentLink(6) 0 ms
+I[20:51:11.621] --> textDocument/clangd.fileStatus
+I[20:51:12.055] <-- textDocument/codeAction(7)
+I[20:51:12.056] <-- $/cancelRequest
+I[20:51:12.056] <-- textDocument/codeAction(8)
+I[20:51:12.056] --> reply:textDocument/codeAction(7) 0 ms, error: Task was cancelled.
+I[20:51:12.056] <-- $/setTrace
+I[20:51:12.056] unhandled notification $/setTrace
+I[20:51:12.056] --> reply:textDocument/codeAction(8) 0 ms
+I[20:51:12.056] <-- textDocument/codeAction(9)
+I[20:51:12.056] <-- $/cancelRequest
+I[20:51:12.056] <-- $/setTrace
+I[20:51:12.056] unhandled notification $/setTrace
+I[20:51:12.056] <-- textDocument/codeAction(10)
+I[20:51:12.056] --> reply:textDocument/codeAction(9) 0 ms
+I[20:51:12.056] <-- $/cancelRequest
+I[20:51:12.056] --> reply:textDocument/codeAction(10) 0 ms
+I[20:51:12.056] --> textDocument/clangd.fileStatus
+I[20:51:12.226] <-- $/cancelRequest
+I[20:51:12.226] <-- $/cancelRequest
+I[20:51:12.227] <-- textDocument/codeAction(11)
+I[20:51:12.227] <-- textDocument/documentLink(12)
+I[20:51:12.227] <-- textDocument/inlayHint(13)
+I[20:51:12.227] --> reply:textDocument/codeAction(11) 0 ms
+I[20:51:12.227] --> reply:textDocument/documentLink(12) 0 ms
+I[20:51:12.228] --> reply:textDocument/inlayHint(13) 0 ms
+I[20:51:12.228] --> textDocument/clangd.fileStatus
+[Error - 8:51:12 PM] Request textDocument/codeAction failed.
+[object Object]
+I[20:51:12.333] <-- $/cancelRequest
+I[20:51:12.333] <-- textDocument/codeAction(14)
+I[20:51:12.333] --> reply:textDocument/codeAction(14) 0 ms
+I[20:51:12.333] --> textDocument/clangd.fileStatus
+I[20:51:12.639] <-- textDocument/codeAction(15)
+I[20:51:12.639] --> reply:textDocument/codeAction(15) 0 ms
+I[20:51:12.639] --> textDocument/clangd.fileStatus
+I[20:51:12.643] <-- textDocument/codeAction(16)
+I[20:51:12.644] --> reply:textDocument/codeAction(16) 0 ms
+I[20:51:12.644] --> textDocument/clangd.fileStatus
+I[20:51:22.875] <-- textDocument/didChange
+I[20:51:22.875] --> textDocument/clangd.fileStatus
+I[20:51:22.901] <-- textDocument/completion(17)
+I[20:51:22.914] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[20:51:22.914] Code complete: 0 results from Sema, 13 from Index, 0 matched, 0 from identifiers, 13 returned (incomplete).
+I[20:51:22.915] --> reply:textDocument/completion(17) 13 ms
+I[20:51:22.925] Failed to find compilation database for /home/amar/Code/apitry/batcheck.c
+I[20:51:22.926] ASTWorker building file /home/amar/Code/apitry/batcheck.c version 2 with command clangd fallback
+[/home/amar/Code/apitry]
+/usr/bin/clang -resource-dir=/usr/lib/clang/22 -- /home/amar/Code/apitry/batcheck.c
+I[20:51:22.928] --> textDocument/clangd.fileStatus
+I[20:51:22.943] --> textDocument/publishDiagnostics
+I[20:51:22.943] --> textDocument/inactiveRegions
+I[20:51:22.943] --> textDocument/clangd.fileStatus
+I[20:51:23.239] <-- textDocument/documentSymbol(18)
+I[20:51:23.239] --> reply:textDocument/documentSymbol(18) 0 ms
+I[20:51:23.239] --> textDocument/clangd.fileStatus
+I[20:51:23.242] <-- textDocument/codeAction(19)
+I[20:51:23.243] --> reply:textDocument/codeAction(19) 0 ms
+I[20:51:23.243] --> textDocument/clangd.fileStatus
+I[20:51:23.403] <-- textDocument/inlayHint(20)
+I[20:51:23.403] --> reply:textDocument/inlayHint(20) 0 ms
+I[20:51:23.403] --> textDocument/clangd.fileStatus
+I[20:51:23.676] <-- textDocument/inlayHint(21)
+I[20:51:23.676] --> reply:textDocument/inlayHint(21) 0 ms
+I[20:51:23.676] --> textDocument/clangd.fileStatus
+I[20:51:23.873] <-- textDocument/documentLink(22)
+I[20:51:23.874] --> reply:textDocument/documentLink(22) 0 ms
+I[20:51:23.874] --> textDocument/clangd.fileStatus
+I[20:51:23.896] <-- textDocument/didSave
+I[20:51:23.896] File version went from 2 to 2
+I[20:51:23.896] --> textDocument/clangd.fileStatus
+I[20:51:23.946] Failed to find compilation database for /home/amar/Code/apitry/batcheck.c
+I[20:51:23.946] ASTWorker building file /home/amar/Code/apitry/batcheck.c version 2 with command clangd fallback
+[/home/amar/Code/apitry]
+/usr/bin/clang -resource-dir=/usr/lib/clang/22 -- /home/amar/Code/apitry/batcheck.c
+I[20:51:23.948] --> textDocument/clangd.fileStatus
+I[20:51:23.949] --> textDocument/clangd.fileStatus
+I[20:51:23.949] --> textDocument/clangd.fileStatus
+I[20:51:23.949] --> textDocument/clangd.fileStatus
+I[20:51:23.989] <-- textDocument/didChange
+I[20:51:23.989] --> textDocument/clangd.fileStatus
+I[20:51:24.039] Failed to find compilation database for /home/amar/Code/apitry/batcheck.c
+I[20:51:24.040] ASTWorker building file /home/amar/Code/apitry/batcheck.c version 3 with command clangd fallback
+[/home/amar/Code/apitry]
+/usr/bin/clang -resource-dir=/usr/lib/clang/22 -- /home/amar/Code/apitry/batcheck.c
+I[20:51:24.042] --> textDocument/clangd.fileStatus
+I[20:51:24.053] --> textDocument/publishDiagnostics
+I[20:51:24.053] --> textDocument/inactiveRegions
+I[20:51:24.054] --> textDocument/clangd.fileStatus
+I[20:51:24.259] <-- textDocument/inlayHint(23)
+I[20:51:24.259] --> reply:textDocument/inlayHint(23) 0 ms
+I[20:51:24.259] --> textDocument/clangd.fileStatus
+I[20:51:24.319] <-- textDocument/codeAction(24)
+I[20:51:24.320] --> reply:textDocument/codeAction(24) 0 ms
+I[20:51:24.320] --> textDocument/clangd.fileStatus
+I[20:51:24.340] <-- textDocument/documentSymbol(25)
+I[20:51:24.340] --> reply:textDocument/documentSymbol(25) 0 ms
+I[20:51:24.340] --> textDocument/clangd.fileStatus
+I[20:51:24.708] <-- textDocument/didChange
+I[20:51:24.708] --> textDocument/clangd.fileStatus
+I[20:51:24.758] Failed to find compilation database for /home/amar/Code/apitry/batcheck.c
+I[20:51:24.759] ASTWorker building file /home/amar/Code/apitry/batcheck.c version 4 with command clangd fallback
+[/home/amar/Code/apitry]
+/usr/bin/clang -resource-dir=/usr/lib/clang/22 -- /home/amar/Code/apitry/batcheck.c
+I[20:51:24.761] --> textDocument/clangd.fileStatus
+I[20:51:24.772] --> textDocument/publishDiagnostics
+I[20:51:24.772] --> textDocument/inactiveRegions
+I[20:51:24.772] --> textDocument/clangd.fileStatus
+I[20:51:24.922] <-- textDocument/inlayHint(26)
+I[20:51:24.922] --> reply:textDocument/inlayHint(26) 0 ms
+I[20:51:24.922] --> textDocument/clangd.fileStatus
+I[20:51:25.039] <-- textDocument/codeAction(27)
+I[20:51:25.040] --> reply:textDocument/codeAction(27) 0 ms
+I[20:51:25.040] --> textDocument/clangd.fileStatus
+I[20:51:25.056] <-- textDocument/documentSymbol(28)
+I[20:51:25.057] --> reply:textDocument/documentSymbol(28) 0 ms
+I[20:51:25.057] --> textDocument/clangd.fileStatus
+I[20:51:25.335] <-- textDocument/didChange
+I[20:51:25.335] --> textDocument/clangd.fileStatus
+I[20:51:25.385] Failed to find compilation database for /home/amar/Code/apitry/batcheck.c
+I[20:51:25.386] ASTWorker building file /home/amar/Code/apitry/batcheck.c version 5 with command clangd fallback
+[/home/amar/Code/apitry]
+/usr/bin/clang -resource-dir=/usr/lib/clang/22 -- /home/amar/Code/apitry/batcheck.c
+I[20:51:25.387] --> textDocument/clangd.fileStatus
+I[20:51:25.397] --> textDocument/publishDiagnostics
+I[20:51:25.397] --> textDocument/inactiveRegions
+I[20:51:25.397] --> textDocument/clangd.fileStatus
+I[20:51:25.516] <-- textDocument/inlayHint(29)
+I[20:51:25.517] --> reply:textDocument/inlayHint(29) 0 ms
+I[20:51:25.517] --> textDocument/clangd.fileStatus
+I[20:51:25.657] <-- textDocument/codeAction(30)
+I[20:51:25.657] --> reply:textDocument/codeAction(30) 0 ms
+I[20:51:25.657] --> textDocument/clangd.fileStatus
+I[20:51:25.686] <-- textDocument/documentSymbol(31)
+I[20:51:25.687] --> reply:textDocument/documentSymbol(31) 0 ms
+I[20:51:25.687] --> textDocument/clangd.fileStatus
+I[20:51:26.137] <-- textDocument/inlayHint(32)
+I[20:51:26.138] --> reply:textDocument/inlayHint(32) 0 ms
+I[20:51:26.138] --> textDocument/clangd.fileStatus
+I[20:51:26.336] <-- textDocument/documentLink(33)
+I[20:51:26.336] --> reply:textDocument/documentLink(33) 0 ms
+I[20:51:26.336] --> textDocument/clangd.fileStatus
+I[20:51:26.357] <-- textDocument/didSave
+I[20:51:26.357] File version went from 5 to 5
+I[20:51:26.357] --> textDocument/clangd.fileStatus
+I[20:51:26.407] Failed to find compilation database for /home/amar/Code/apitry/batcheck.c
+I[20:51:26.408] ASTWorker building file /home/amar/Code/apitry/batcheck.c version 5 with command clangd fallback
+[/home/amar/Code/apitry]
+/usr/bin/clang -resource-dir=/usr/lib/clang/22 -- /home/amar/Code/apitry/batcheck.c
+I[20:51:26.410] --> textDocument/clangd.fileStatus
+I[20:51:26.410] --> textDocument/clangd.fileStatus
+I[20:51:26.410] --> textDocument/clangd.fileStatus
+I[20:51:26.410] --> textDocument/clangd.fileStatus
+I[20:52:10.419] <-- textDocument/inlayHint(34)
+I[20:52:10.419] --> reply:textDocument/inlayHint(34) 0 ms
+I[20:52:10.420] --> textDocument/clangd.fileStatus
+I[20:52:13.477] <-- textDocument/inlayHint(35)
+I[20:52:13.478] --> reply:textDocument/inlayHint(35) 0 ms
+I[20:52:13.479] --> textDocument/clangd.fileStatus
+I[20:52:14.415] <-- textDocument/inlayHint(36)
+I[20:52:14.416] --> reply:textDocument/inlayHint(36) 0 ms
+I[20:52:14.416] --> textDocument/clangd.fileStatus
+I[20:52:15.842] <-- textDocument/inlayHint(37)
+I[20:52:15.842] --> reply:textDocument/inlayHint(37) 0 ms
+I[20:52:15.843] --> textDocument/clangd.fileStatus
+I[20:52:17.219] <-- textDocument/inlayHint(38)
+I[20:52:17.220] --> reply:textDocument/inlayHint(38) 0 ms
+I[20:52:17.220] --> textDocument/clangd.fileStatus
+I[20:52:22.997] <-- textDocument/inlayHint(39)
+I[20:52:22.997] --> reply:textDocument/inlayHint(39) 0 ms
+I[20:52:22.998] --> textDocument/clangd.fileStatus
+I[20:52:24.986] <-- textDocument/inlayHint(40)
+I[20:52:24.987] --> reply:textDocument/inlayHint(40) 0 ms
+I[20:52:24.987] --> textDocument/clangd.fileStatus
+I[20:52:28.184] <-- textDocument/inlayHint(41)
+I[20:52:28.185] --> reply:textDocument/inlayHint(41) 0 ms
+I[20:52:28.185] --> textDocument/clangd.fileStatus
+I[20:52:31.797] <-- textDocument/inlayHint(42)
+I[20:52:31.798] --> reply:textDocument/inlayHint(42) 1 ms
+I[20:52:31.798] --> textDocument/clangd.fileStatus
+I[20:52:33.336] <-- textDocument/inlayHint(43)
+I[20:52:33.336] --> reply:textDocument/inlayHint(43) 0 ms
+I[20:52:33.337] --> textDocument/clangd.fileStatus
+I[20:52:34.948] <-- textDocument/inlayHint(44)
+I[20:52:34.948] --> reply:textDocument/inlayHint(44) 0 ms
+I[20:52:34.949] --> textDocument/clangd.fileStatus
+I[20:52:35.172] <-- textDocument/inlayHint(45)
+I[20:52:35.173] --> reply:textDocument/inlayHint(45) 0 ms
+I[20:52:35.173] --> textDocument/clangd.fileStatus
+I[20:52:36.644] <-- textDocument/inlayHint(46)
+I[20:52:36.645] --> reply:textDocument/inlayHint(46) 0 ms
+I[20:52:36.645] --> textDocument/clangd.fileStatus
+I[20:52:38.022] <-- textDocument/inlayHint(47)
+I[20:52:38.023] --> reply:textDocument/inlayHint(47) 0 ms
+I[20:52:38.023] --> textDocument/clangd.fileStatus
+I[20:52:40.841] <-- textDocument/inlayHint(48)
+I[20:52:40.842] --> reply:textDocument/inlayHint(48) 0 ms
+I[20:52:40.842] --> textDocument/clangd.fileStatus
+I[20:52:41.494] <-- textDocument/inlayHint(49)
+I[20:52:41.495] --> reply:textDocument/inlayHint(49) 0 ms
+I[20:52:41.495] --> textDocument/clangd.fileStatus
+I[20:52:42.102] <-- textDocument/inlayHint(50)
+I[20:52:42.102] --> reply:textDocument/inlayHint(50) 0 ms
+I[20:52:42.103] --> textDocument/clangd.fileStatus
+I[20:52:42.928] <-- textDocument/inlayHint(51)
+I[20:52:42.929] --> reply:textDocument/inlayHint(51) 0 ms
+I[20:52:42.929] --> textDocument/clangd.fileStatus
+I[20:52:44.525] <-- textDocument/inlayHint(52)
+I[20:52:44.525] --> reply:textDocument/inlayHint(52) 0 ms
+I[20:52:44.525] --> textDocument/clangd.fileStatus
+I[20:52:45.484] <-- textDocument/inlayHint(53)
+I[20:52:45.484] --> reply:textDocument/inlayHint(53) 0 ms
+I[20:52:45.485] --> textDocument/clangd.fileStatus
+I[20:52:46.739] <-- textDocument/inlayHint(54)
+I[20:52:46.740] --> reply:textDocument/inlayHint(54) 0 ms
+I[20:52:46.740] --> textDocument/clangd.fileStatus
+I[20:52:47.128] <-- textDocument/inlayHint(55)
+I[20:52:47.128] --> reply:textDocument/inlayHint(55) 0 ms
+I[20:52:47.129] --> textDocument/clangd.fileStatus
+I[20:52:48.739] <-- textDocument/inlayHint(56)
+I[20:52:48.740] --> reply:textDocument/inlayHint(56) 0 ms
+I[20:52:48.740] --> textDocument/clangd.fileStatus
+I[20:52:49.155] <-- textDocument/inlayHint(57)
+I[20:52:49.155] --> reply:textDocument/inlayHint(57) 0 ms
+I[20:52:49.155] --> textDocument/clangd.fileStatus
+I[20:52:50.505] <-- textDocument/inlayHint(58)
+I[20:52:50.505] --> reply:textDocument/inlayHint(58) 0 ms
+I[20:52:50.505] --> textDocument/clangd.fileStatus
+I[20:53:01.370] <-- textDocument/inlayHint(59)
+I[20:53:01.370] --> reply:textDocument/inlayHint(59) 0 ms
+I[20:53:01.370] --> textDocument/clangd.fileStatus
+I[20:53:01.919] <-- textDocument/inlayHint(60)
+I[20:53:01.919] --> reply:textDocument/inlayHint(60) 0 ms
+I[20:53:01.920] --> textDocument/clangd.fileStatus
+I[20:53:02.202] <-- textDocument/inlayHint(61)
+I[20:53:02.202] --> reply:textDocument/inlayHint(61) 0 ms
+I[20:53:02.202] --> textDocument/clangd.fileStatus
+I[20:53:03.169] <-- textDocument/inlayHint(62)
+I[20:53:03.170] --> reply:textDocument/inlayHint(62) 0 ms
+I[20:53:03.170] --> textDocument/clangd.fileStatus
+I[20:53:03.285] <-- textDocument/inlayHint(63)
+I[20:53:03.286] --> reply:textDocument/inlayHint(63) 0 ms
+I[20:53:03.286] --> textDocument/clangd.fileStatus
+I[20:53:03.985] <-- textDocument/inlayHint(64)
+I[20:53:03.985] --> reply:textDocument/inlayHint(64) 0 ms
+I[20:53:03.986] --> textDocument/clangd.fileStatus
+I[20:53:04.051] <-- textDocument/inlayHint(65)
+I[20:53:04.051] --> reply:textDocument/inlayHint(65) 0 ms
+I[20:53:04.052] --> textDocument/clangd.fileStatus
+I[20:53:04.253] <-- textDocument/inlayHint(66)
+I[20:53:04.253] --> reply:textDocument/inlayHint(66) 0 ms
+I[20:53:04.254] --> textDocument/clangd.fileStatus
+I[20:59:23.578] <-- textDocument/inlayHint(67)
+I[20:59:23.579] --> reply:textDocument/inlayHint(67) 0 ms
+I[20:59:23.579] --> textDocument/clangd.fileStatus
+I[21:06:25.818] <-- textDocument/inlayHint(68)
+I[21:06:25.818] --> reply:textDocument/inlayHint(68) 0 ms
+I[21:06:25.819] --> textDocument/clangd.fileStatus

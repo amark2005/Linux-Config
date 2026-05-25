@@ -1,0 +1,924 @@
+[Info  - 21:19:05] 2026/05/18 21:19:05 Created View (#1)
+	directory=/home/amar/Code
+	view_type="AdHoc"
+	root_dir="file:///home/amar/Code"
+	go_version="go version go1.26.3-X:nodwarf5 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/amar/.cache/go-build GOMODCACHE:/home/amar/go/pkg/mod GOPATH:/home/amar/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:26 GoVersionOutput:go version go1.26.3-X:nodwarf5 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 21:19:05] 2026/05/18 21:19:05 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/amar/Code
+	query=[./ builtin]
+	packages=2
+	duration=29.466617ms
+
+[Info  - 21:19:05] 2026/05/18 21:19:05 Created View (#2)
+	directory=/home/amar/Code
+	view_type="GoMod"
+	root_dir="file:///home/amar/Code/goman"
+	go_version="go version go1.26.3-X:nodwarf5 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/amar/.cache/go-build GOMODCACHE:/home/amar/go/pkg/mod GOPATH:/home/amar/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:26 GoVersionOutput:go version go1.26.3-X:nodwarf5 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 21:19:05] 2026/05/18 21:19:05 go/packages.Load #2
+	view_id="2"
+	snapshot=0
+	directory=/home/amar/Code
+	query=[/home/amar/Code/goman/... builtin]
+	packages=2
+	duration=243.350432ms
+
+[Info  - 21:19:35] 2026/05/18 21:19:35 background imports cache refresh starting
+
+[Info  - 21:19:35] 2026/05/18 21:19:35 background refresh finished after 9.716199ms
+
+[Info  - 21:19:35] 2026/05/18 21:19:35 background imports cache refresh starting
+
+[Info  - 21:19:35] 2026/05/18 21:19:35 background refresh finished after 53.31995ms
+
+[Info  - 21:22:55] 2026/05/18 21:22:55 background imports cache refresh starting
+
+[Info  - 21:22:55] 2026/05/18 21:22:55 background refresh finished after 2.322007ms
+
+[Error - 21:23:04] 2026/05/18 21:23:04 imports fixes: allImportsFixes: /home/amar/Code/goman/main.go:6:7: expected type, found newline
+	file="/home/amar/Code/goman/main.go"
+
+[Info  - 21:23:31] 2026/05/18 21:23:31 background imports cache refresh starting
+
+[Info  - 21:23:31] 2026/05/18 21:23:31 background refresh finished after 2.638239ms
+
+[Info  - 21:25:50] 2026/05/18 21:25:50 background imports cache refresh starting
+
+[Info  - 21:25:50] 2026/05/18 21:25:50 background refresh finished after 2.301887ms
+
+[Info  - 21:26:23] 2026/05/18 21:26:23 background imports cache refresh starting
+
+[Info  - 21:26:23] 2026/05/18 21:26:23 background refresh finished after 2.785411ms
+
+[Info  - 21:26:54] 2026/05/18 21:26:54 background imports cache refresh starting
+
+[Info  - 21:26:54] 2026/05/18 21:26:54 background refresh finished after 3.143551ms
+
+[Info  - 21:27:24] 2026/05/18 21:27:24 background imports cache refresh starting
+
+[Info  - 21:27:24] 2026/05/18 21:27:24 background refresh finished after 2.457936ms
+
+[Error - 21:27:56] Request textDocument/hover failed.
+  Message: rune error
+  Code: 0 
+[Info  - 21:40:12] 2026/05/18 21:40:12 Created View (#3)
+	directory=/home/amar/Code
+	view_type="GoMod"
+	root_dir="file:///home/amar/Code/http"
+	go_version="go version go1.26.3-X:nodwarf5 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/amar/.cache/go-build GOMODCACHE:/home/amar/go/pkg/mod GOPATH:/home/amar/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:26 GoVersionOutput:go version go1.26.3-X:nodwarf5 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 21:40:12] 2026/05/18 21:40:12 go/packages.Load #4
+	view_id="3"
+	snapshot=0
+	directory=/home/amar/Code
+	query=[/home/amar/Code/http/... builtin]
+	packages=2
+	duration=34.219474ms
+
+[Error - 21:40:18] 2026/05/18 21:40:18 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:1:8: expected ';', found 'EOF' (and 1 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Info  - 21:40:19] 2026/05/18 21:40:19 go/packages.Load #5
+	view_id="3"
+	snapshot=10
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=28.537254ms
+
+[Info  - 21:40:19] 2026/05/18 21:40:19 go/packages.Load #6
+	view_id="3"
+	snapshot=10
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=31.759018ms
+
+[Info  - 21:40:22] 2026/05/18 21:40:22 go/packages.Load #7
+	view_id="3"
+	snapshot=15
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=29.871942ms
+
+[Info  - 21:40:22] 2026/05/18 21:40:22 go/packages.Load #8
+	view_id="3"
+	snapshot=15
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=34.975641ms
+
+[Info  - 21:40:22] 2026/05/18 21:40:22 go/packages.Load #9
+	view_id="3"
+	snapshot=16
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=38.924183ms
+
+[Info  - 21:40:22] 2026/05/18 21:40:22 go/packages.Load #10
+	view_id="3"
+	snapshot=16
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=36.928748ms
+
+[Info  - 21:40:22] 2026/05/18 21:40:22 go/packages.Load #11
+	view_id="3"
+	snapshot=17
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=21.281453ms
+
+[Info  - 21:40:22] 2026/05/18 21:40:22 go/packages.Load #12
+	view_id="3"
+	snapshot=17
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=23.905539ms
+
+[Info  - 21:40:22] 2026/05/18 21:40:22 go/packages.Load #13
+	view_id="3"
+	snapshot=18
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=22.594744ms
+
+[Info  - 21:40:22] 2026/05/18 21:40:22 go/packages.Load #15
+	view_id="3"
+	snapshot=19
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=25.44007ms
+
+[Info  - 21:40:22] 2026/05/18 21:40:22 go/packages.Load #14
+	view_id="3"
+	snapshot=19
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=32.689578ms
+
+[Info  - 21:40:22] 2026/05/18 21:40:22 go/packages.Load #16
+	view_id="3"
+	snapshot=20
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=27.579742ms
+
+[Info  - 21:40:22] 2026/05/18 21:40:22 go/packages.Load #17
+	view_id="3"
+	snapshot=20
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=30.913686ms
+
+[Info  - 21:40:23] 2026/05/18 21:40:23 go/packages.Load #18
+	view_id="3"
+	snapshot=21
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=27.859003ms
+
+[Info  - 21:40:23] 2026/05/18 21:40:23 go/packages.Load #19
+	view_id="3"
+	snapshot=21
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=27.674091ms
+
+[Info  - 21:40:23] 2026/05/18 21:40:23 go/packages.Load #20
+	view_id="3"
+	snapshot=22
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=30.468649ms
+
+[Info  - 21:40:23] 2026/05/18 21:40:23 go/packages.Load #21
+	view_id="3"
+	snapshot=22
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=30.34738ms
+
+[Info  - 21:40:23] 2026/05/18 21:40:23 go/packages.Load #22
+	view_id="3"
+	snapshot=23
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=29.826757ms
+
+[Info  - 21:40:23] 2026/05/18 21:40:23 go/packages.Load #23
+	view_id="3"
+	snapshot=23
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=30.782527ms
+
+[Info  - 21:40:23] 2026/05/18 21:40:23 go/packages.Load #24
+	view_id="3"
+	snapshot=24
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=30.388659ms
+
+[Info  - 21:40:23] 2026/05/18 21:40:23 go/packages.Load #25
+	view_id="3"
+	snapshot=24
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=31.168198ms
+
+[Info  - 21:40:23] 2026/05/18 21:40:23 go/packages.Load #26
+	view_id="3"
+	snapshot=25
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=26.572623ms
+
+[Info  - 21:40:23] 2026/05/18 21:40:23 go/packages.Load #27
+	view_id="3"
+	snapshot=25
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=27.282866ms
+
+[Info  - 21:40:24] 2026/05/18 21:40:24 go/packages.Load #29
+	view_id="3"
+	snapshot=26
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=27.622823ms
+
+[Info  - 21:40:24] 2026/05/18 21:40:24 go/packages.Load #28
+	view_id="3"
+	snapshot=26
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=31.245757ms
+
+[Info  - 21:40:24] 2026/05/18 21:40:24 go/packages.Load #31
+	view_id="3"
+	snapshot=27
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=28.276552ms
+
+[Info  - 21:40:24] 2026/05/18 21:40:24 go/packages.Load #30
+	view_id="3"
+	snapshot=27
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=28.767333ms
+
+[Info  - 21:40:25] 2026/05/18 21:40:25 go/packages.Load #33
+	view_id="3"
+	snapshot=28
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=105.6485ms
+
+[Info  - 21:40:25] 2026/05/18 21:40:25 go/packages.Load #32
+	view_id="3"
+	snapshot=28
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=110.893115ms
+
+[Error - 21:40:29] 2026/05/18 21:40:29 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:3:7: expected ';', found 'EOF' (and 1 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:40:30] 2026/05/18 21:40:30 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:3:7: expected ';', found 'EOF' (and 1 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Info  - 21:40:42] 2026/05/18 21:40:42 background imports cache refresh starting
+
+[Info  - 21:40:42] 2026/05/18 21:40:42 background refresh finished after 33.781412ms
+
+[Error - 21:40:53] 2026/05/18 21:40:53 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:3:7: missing import path (and 1 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Info  - 21:40:54] 2026/05/18 21:40:54 go/packages.Load #34
+	view_id="3"
+	snapshot=81
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=135.068313ms
+
+[Info  - 21:40:54] 2026/05/18 21:40:54 go/packages.Load #35
+	view_id="3"
+	snapshot=81
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=135.105735ms
+
+[Info  - 21:40:54] 2026/05/18 21:40:54 go/packages.Load #36
+	view_id="3"
+	snapshot=82
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=100.524604ms
+
+[Info  - 21:40:55] 2026/05/18 21:40:55 go/packages.Load #37
+	view_id="3"
+	snapshot=82
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=104.262297ms
+
+[Info  - 21:40:55] 2026/05/18 21:40:55 go/packages.Load #38
+	view_id="3"
+	snapshot=83
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=213.489242ms
+
+[Info  - 21:40:55] 2026/05/18 21:40:55 go/packages.Load #39
+	view_id="3"
+	snapshot=83
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=224.944284ms
+
+[Error - 21:40:56] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 21:41:03] 2026/05/18 21:41:03 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:8:10: expected '(', found newline (and 2 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:41:04] 2026/05/18 21:41:04 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:8:10: expected '(', found newline (and 2 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:41:19] 2026/05/18 21:41:19 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:8:35: missing parameter type
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:41:20] 2026/05/18 21:41:20 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:8:36: missing parameter type
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:41:21] 2026/05/18 21:41:21 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:8:37: expected type, found ')'
+	file="/home/amar/Code/http/main.go"
+
+[Info  - 21:41:31] 2026/05/18 21:41:31 background imports cache refresh starting
+
+[Info  - 21:41:31] 2026/05/18 21:41:31 background refresh finished after 2.119995ms
+
+[Info  - 21:42:02] 2026/05/18 21:42:02 background imports cache refresh starting
+
+[Info  - 21:42:02] 2026/05/18 21:42:02 background refresh finished after 2.336243ms
+
+[Error - 21:42:03] 2026/05/18 21:42:03 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:12:10: expected '(', found newline (and 2 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:42:04] 2026/05/18 21:42:04 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:12:10: expected '(', found newline (and 2 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Info  - 21:42:37] 2026/05/18 21:42:37 background imports cache refresh starting
+
+[Info  - 21:42:37] 2026/05/18 21:42:37 background refresh finished after 2.734991ms
+
+[Info  - 21:43:21] 2026/05/18 21:43:21 background imports cache refresh starting
+
+[Info  - 21:43:21] 2026/05/18 21:43:21 background refresh finished after 2.650798ms
+
+[Error - 21:47:44] Request textDocument/hover failed.
+  Message: rune error
+  Code: 0 
+[Info  - 21:49:17] 2026/05/18 21:49:17 background imports cache refresh starting
+
+[Info  - 21:49:17] 2026/05/18 21:49:17 background refresh finished after 2.31834ms
+
+[Error - 21:53:06] Request textDocument/hover failed.
+  Message: rune error
+  Code: 0 
+[Info  - 21:54:00] 2026/05/18 21:54:00 background imports cache refresh starting
+
+[Info  - 21:54:00] 2026/05/18 21:54:00 background refresh finished after 3.923124ms
+
+[Error - 21:56:30] 2026/05/18 21:56:30 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:8:10: expected type, found newline
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:56:30] 2026/05/18 21:56:30 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:8:12: expected type, found newline
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:56:31] 2026/05/18 21:56:31 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:8:13: expected type, found newline
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:56:32] 2026/05/18 21:56:32 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:8:12: expected type, found newline
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:56:33] 2026/05/18 21:56:33 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:8:14: expected type, found newline
+	file="/home/amar/Code/http/main.go"
+
+[Info  - 21:56:53] 2026/05/18 21:56:53 background imports cache refresh starting
+
+[Info  - 21:56:53] 2026/05/18 21:56:53 background refresh finished after 2.434368ms
+
+[Info  - 21:58:10] 2026/05/18 21:58:10 background imports cache refresh starting
+
+[Info  - 21:58:10] 2026/05/18 21:58:10 background refresh finished after 2.386202ms
+
+[Error - 21:58:55] 2026/05/18 21:58:55 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:8: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:58:55] 2026/05/18 21:58:55 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:9: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:58:55] 2026/05/18 21:58:55 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:10: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:58:56] 2026/05/18 21:58:56 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:13: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:01] 2026/05/18 21:59:01 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:12: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:01] 2026/05/18 21:59:01 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:11: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:03] 2026/05/18 21:59:03 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:9: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:04] 2026/05/18 21:59:04 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:9: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:05] 2026/05/18 21:59:05 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:6: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:06] 2026/05/18 21:59:06 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:11: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:07] 2026/05/18 21:59:07 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:10: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:07] 2026/05/18 21:59:07 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:9: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:08] 2026/05/18 21:59:08 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:9: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:09] 2026/05/18 21:59:09 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:12: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:10] 2026/05/18 21:59:10 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:16:12: expected type, found newline (and 7 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Info  - 21:59:23] 2026/05/18 21:59:23 background imports cache refresh starting
+
+[Info  - 21:59:23] 2026/05/18 21:59:23 background refresh finished after 2.575655ms
+
+[Error - 21:59:49] 2026/05/18 21:59:49 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:54:7: expected '(', found newline (and 9 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:49] 2026/05/18 21:59:49 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:54:10: expected '(', found newline (and 9 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:50] 2026/05/18 21:59:50 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:54:14: expected '(', found newline (and 9 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:51] 2026/05/18 21:59:51 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:54:15: expected '(', found newline (and 9 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:51] 2026/05/18 21:59:51 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:54:14: expected '(', found newline (and 9 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:52] 2026/05/18 21:59:52 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:54:17: expected '(', found newline (and 9 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:53] 2026/05/18 21:59:53 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:54:17: expected '(', found newline (and 9 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 21:59:53] 2026/05/18 21:59:53 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:54:17: expected '(', found newline (and 9 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 22:00:05] 2026/05/18 22:00:05 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:54:42: missing parameter type
+	file="/home/amar/Code/http/main.go"
+
+[Error - 22:00:06] 2026/05/18 22:00:06 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:54:42: missing parameter type
+	file="/home/amar/Code/http/main.go"
+
+[Error - 22:00:07] 2026/05/18 22:00:07 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:54:42: missing parameter type
+	file="/home/amar/Code/http/main.go"
+
+[Info  - 22:00:17] 2026/05/18 22:00:17 background imports cache refresh starting
+
+[Info  - 22:00:17] 2026/05/18 22:00:17 background refresh finished after 2.391229ms
+
+[Info  - 22:00:30] 2026/05/18 22:00:30 go/packages.Load #40
+	view_id="3"
+	snapshot=677
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=194.280753ms
+
+[Error - 22:00:30] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Info  - 22:00:30] 2026/05/18 22:00:30 go/packages.Load #42
+	view_id="3"
+	snapshot=678
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=185.370612ms
+
+[Info  - 22:00:30] 2026/05/18 22:00:30 go/packages.Load #43
+	view_id="3"
+	snapshot=678
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=185.198575ms
+
+[Error - 22:00:31] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 22:00:31] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 22:00:31] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 22:00:31] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 22:00:31] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Info  - 22:00:31] 2026/05/18 22:00:31 go/packages.Load #55
+	view_id="3"
+	snapshot=684
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=196.248226ms
+
+[Info  - 22:00:31] 2026/05/18 22:00:31 go/packages.Load #54
+	view_id="3"
+	snapshot=684
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=197.285682ms
+
+[Info  - 22:00:32] 2026/05/18 22:00:32 go/packages.Load #56
+	view_id="3"
+	snapshot=685
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=253.296973ms
+
+[Info  - 22:00:32] 2026/05/18 22:00:32 go/packages.Load #57
+	view_id="3"
+	snapshot=685
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=222.065009ms
+
+[Error - 22:00:33] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 22:00:33] 2026/05/18 22:00:33 go/packages.Load #61
+	view_id="3"
+	snapshot=688
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=179.282959ms
+
+[Error - 22:00:33] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 22:00:33] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Info  - 22:00:33] 2026/05/18 22:00:33 go/packages.Load #64
+	view_id="3"
+	snapshot=689
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=182.850207ms
+
+[Info  - 22:00:33] 2026/05/18 22:00:33 go/packages.Load #65
+	view_id="3"
+	snapshot=689
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=163.817207ms
+
+[Info  - 22:00:34] 2026/05/18 22:00:34 go/packages.Load #66
+	view_id="3"
+	snapshot=690
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=166.689806ms
+
+[Info  - 22:00:34] 2026/05/18 22:00:34 go/packages.Load #67
+	view_id="3"
+	snapshot=690
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=154.569866ms
+
+[Error - 22:00:34] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 22:00:34] 2026/05/18 22:00:34 go/packages.Load #68
+	view_id="3"
+	snapshot=691
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=195.087071ms
+
+[Info  - 22:00:34] 2026/05/18 22:00:34 go/packages.Load #70
+	view_id="3"
+	snapshot=691
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=163.323348ms
+
+[Info  - 22:00:34] 2026/05/18 22:00:34 go/packages.Load #71
+	view_id="3"
+	snapshot=692
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=170.23097ms
+
+[Info  - 22:00:35] 2026/05/18 22:00:35 go/packages.Load #72
+	view_id="3"
+	snapshot=693
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=197.284873ms
+
+[Error - 22:00:35] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 22:00:39] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Info  - 22:00:39] 2026/05/18 22:00:39 go/packages.Load #76
+	view_id="3"
+	snapshot=701
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=195.119526ms
+
+[Info  - 22:00:39] 2026/05/18 22:00:39 go/packages.Load #77
+	view_id="3"
+	snapshot=701
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=208.474303ms
+
+[Error - 22:00:39] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 22:00:39] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Info  - 22:00:39] 2026/05/18 22:00:39 go/packages.Load #80
+	view_id="3"
+	snapshot=703
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=188.61635ms
+
+[Info  - 22:00:40] 2026/05/18 22:00:40 go/packages.Load #81
+	view_id="3"
+	snapshot=703
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=207.533942ms
+
+[Info  - 22:00:40] 2026/05/18 22:00:40 go/packages.Load #82
+	view_id="3"
+	snapshot=704
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=187.80458ms
+
+[Info  - 22:00:40] 2026/05/18 22:00:40 go/packages.Load #83
+	view_id="3"
+	snapshot=704
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=186.743002ms
+
+[Info  - 22:00:41] 2026/05/18 22:00:41 go/packages.Load #84
+	view_id="3"
+	snapshot=705
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=174.200711ms
+
+[Error - 22:00:41] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 22:00:41] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 22:00:41] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Info  - 22:00:41] 2026/05/18 22:00:41 go/packages.Load #90
+	view_id="3"
+	snapshot=708
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=188.630052ms
+
+[Info  - 22:00:41] 2026/05/18 22:00:41 go/packages.Load #91
+	view_id="3"
+	snapshot=708
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=197.982837ms
+
+[Info  - 22:00:46] 2026/05/18 22:00:46 go/packages.Load #92
+	view_id="3"
+	snapshot=715
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=196.426623ms
+
+[Error - 22:00:46] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 22:00:46] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 22:00:46] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Info  - 22:00:46] 2026/05/18 22:00:46 go/packages.Load #99
+	view_id="3"
+	snapshot=718
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=183.030387ms
+
+[Info  - 22:00:46] 2026/05/18 22:00:46 go/packages.Load #98
+	view_id="3"
+	snapshot=718
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=200.322321ms
+
+[Info  - 22:00:59] 2026/05/18 22:00:59 background imports cache refresh starting
+
+[Info  - 22:00:59] 2026/05/18 22:00:59 background refresh finished after 2.69267ms
+
+[Error - 22:01:19] 2026/05/18 22:01:19 signature help failed: cannot get type for Fun *ast.SelectorExpr (&{0x1fda3c58c840 UnixN})
+	position=57:27
+
+[Info  - 22:01:30] 2026/05/18 22:01:30 background imports cache refresh starting
+
+[Info  - 22:01:30] 2026/05/18 22:01:30 background refresh finished after 2.678781ms
+
+[Error - 22:01:36] 2026/05/18 22:01:36 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:59:28: expected operand, found ']'
+	file="/home/amar/Code/http/main.go"
+
+[Error - 22:01:43] 2026/05/18 22:01:43 signature help failed: call operand is not a func or type: *ast.Ident (len)
+	position=58:41
+
+[Info  - 22:02:01] 2026/05/18 22:02:01 background imports cache refresh starting
+
+[Info  - 22:02:01] 2026/05/18 22:02:01 background refresh finished after 2.243363ms
+
+[Info  - 22:02:39] 2026/05/18 22:02:39 background imports cache refresh starting
+
+[Info  - 22:02:39] 2026/05/18 22:02:39 background refresh finished after 2.378646ms
+
+[Info  - 22:03:13] 2026/05/18 22:03:13 background imports cache refresh starting
+
+[Info  - 22:03:13] 2026/05/18 22:03:13 background refresh finished after 2.823013ms
+
+[Error - 22:04:31] Request textDocument/hover failed.
+  Message: context canceled
+  Code: 0 
+[Error - 22:04:40] Request textDocument/hover failed.
+  Message: context canceled
+  Code: 0 
+[Error - 22:15:01] 2026/05/18 22:15:01 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:235:4: missing ',' before newline in composite literal
+	file="/home/amar/Code/http/main.go"
+
+[Error - 22:15:01] 2026/05/18 22:15:01 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:235:4: missing ',' before newline in composite literal
+	file="/home/amar/Code/http/main.go"
+
+[Error - 22:15:02] 2026/05/18 22:15:02 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:235:4: missing ',' before newline in composite literal
+	file="/home/amar/Code/http/main.go"
+
+[Error - 22:15:02] 2026/05/18 22:15:02 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:235:4: missing ',' before newline in composite literal
+	file="/home/amar/Code/http/main.go"
+
+[Info  - 22:15:25] 2026/05/18 22:15:25 background imports cache refresh starting
+
+[Info  - 22:15:25] 2026/05/18 22:15:25 background refresh finished after 1.864812ms
+
+[Info  - 22:15:56] 2026/05/18 22:15:56 background imports cache refresh starting
+
+[Info  - 22:15:56] 2026/05/18 22:15:56 background refresh finished after 2.690054ms
+
+[Info  - 22:16:55] 2026/05/18 22:16:55 background imports cache refresh starting
+
+[Info  - 22:16:55] 2026/05/18 22:16:55 background refresh finished after 2.511476ms
+
+[Info  - 22:31:44] 2026/05/18 22:31:44 go/packages.Load #101
+	view_id="3"
+	snapshot=1039
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=226.22883ms
+
+[Info  - 22:31:44] 2026/05/18 22:31:44 go/packages.Load #102
+	view_id="3"
+	snapshot=1039
+	directory=/home/amar/Code
+	query=[file=/home/amar/Code/http/main.go]
+	packages=1
+	duration=229.802846ms
+
+[Info  - 22:32:04] 2026/05/18 22:32:04 background imports cache refresh starting
+
+[Info  - 22:32:04] 2026/05/18 22:32:04 background refresh finished after 2.826048ms
+
+[Error - 22:32:22] 2026/05/18 22:32:22 imports fixes: allImportsFixes: /home/amar/Code/http/main.go:254:26: expected operand, found ',' (and 5 more errors)
+	file="/home/amar/Code/http/main.go"
+
+[Error - 22:32:25] Request textDocument/hover failed.
+  Message: rune error
+  Code: 0 
+[Info  - 22:32:52] 2026/05/18 22:32:52 background imports cache refresh starting
+
+[Info  - 22:32:52] 2026/05/18 22:32:52 background refresh finished after 2.244553ms
+

@@ -1,0 +1,9 @@
+2026-05-18 01:19:37.714 [info] Started local extension host with pid 7955.
+2026-05-18 01:19:38.684 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-18 01:19:38.684 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-18 01:19:38.685 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-18 01:19:38.934 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2026-05-18 01:19:38.937 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2026-05-18 01:19:40.405 [error] [Extension Host] (node:7955) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-18 01:19:40.725 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

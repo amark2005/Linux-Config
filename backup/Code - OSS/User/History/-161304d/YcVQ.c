@@ -1,0 +1,43 @@
+#include<ncurses.h>
+#include <unistd.h>
+typedef struct{
+  unsigned int money;
+  unsigned int max_hold;
+  unsigned int iteminven;
+  unsigned int HP;
+} Player;
+
+typedef struct{
+  unsigned int inventorysize;
+  
+} Market;
+
+void openinvo(Player *hlo){
+  clear();
+  box(stdscr,0,0);
+  mvprintw(1,2,"Inventory\n");
+  //stat
+  mvprintw(3,4,"Max_Hold: %d",hlo->max_hold);
+  mvprintw(3,4,"No.of Item: %d",hlo->iteminven);
+  refresh();
+  int ch=getch();
+  if (ch=='q') {
+  
+  }
+}
+
+int main(){
+  Player p1={.HP=100,.money=1000,.max_hold=20,.iteminven=0};
+  initscr();
+  noecho();
+  cbreak();
+  curs_set(0);
+
+
+  while (1) {
+    clear();
+    
+  }
+  endwin();
+  return 0;
+}

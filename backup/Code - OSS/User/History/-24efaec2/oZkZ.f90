@@ -1,0 +1,24 @@
+
+program name
+  implicit none
+  real::x,y,h
+  real::k1,k2,k3,k4
+  x=0
+  y=1
+  h=0.1
+  k1=h*f(x,y)
+  k2=h*f(x+h/2,y+k1/2)
+  k3=h*f(x+h/2,y+k2/2)
+  k4=h*f(x+h,y+k3)
+  y=y+(k1+(2*k2)+(2*k3)+k4)/6
+  print *,"y(0.1)= ",y
+contains
+function rk4(x,y,h) result()
+function f(x,y) result(m)
+  implicit none
+  real::x,y
+  real::m
+  m=x+y
+end function f
+
+end program name

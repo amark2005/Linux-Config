@@ -1,0 +1,13 @@
+2026-05-15 23:31:36.227 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-05-15 23:31:36.227 [info]    [            1] GitLens v17.12.2  activating in Code - OSS (1.119.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|someValue.machineId|someValue.sessionId)
+2026-05-15 23:31:36.227 [warning] [            1] GitLens v17.12.2 activated [289ms]
+2026-05-15 23:31:36.227 [info]    [   6f →    70] GlCliGitProvider.findGit Git (2.54.0) found in /usr/bin/git [596ms]
+2026-05-15 23:31:36.227 [info]    [   6f →    9e] GlCliGitProvider.repositorySearch(/home/amar/Code/rustbaby) searching (depth=1)...
+2026-05-15 23:31:36.227 [error]   [GIT          ] [/home/amar/Code/rustbaby] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any of the parent directories): .git [18ms]
+2026-05-15 23:31:36.285 [info]    [GIT      45ms] [/home/amar/Code/rustbaby/trykaro] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [45ms]
+2026-05-15 23:31:36.288 [info]    [IPC          ] Server started on http://127.0.0.1:40139
+2026-05-15 23:31:36.296 [info]    [   6f →    9e] GlCliGitProvider.repositorySearch(/home/amar/Code/rustbaby) found repository in '/home/amar/Code/rustbaby/trykaro'
+2026-05-15 23:31:36.370 [info]    [GIT      17ms] [/home/amar/Code/rustbaby/trykaro] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [17ms]
+2026-05-15 23:31:36.373 [info]    [GIT      10ms] [/home/amar/Code/rustbaby/trykaro] git remote -v [10ms]
+2026-05-15 23:31:36.393 [info]    [GIT       7ms] [/home/amar/Code/rustbaby/trykaro] git config --get-regex ^branch\..*\.gk- [7ms]
+2026-05-15 23:31:36.403 [info]    [GIT       8ms] [/home/amar/Code/rustbaby/trykaro] git config --get -f /home/amar/Code/rustbaby/trykaro/.git/gk/config gk.defaultRemote [8ms]

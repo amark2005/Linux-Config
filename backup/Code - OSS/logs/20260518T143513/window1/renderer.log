@@ -1,0 +1,44 @@
+2026-05-18 14:35:15.768 [info] Started local extension host with pid 3153.
+2026-05-18 14:35:16.959 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-18 14:35:16.960 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-18 14:35:16.960 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-18 14:35:17.267 [warning] [edwinhuish.better-comments-next]: Cannot register 'better-comments.highlightPlainText'. This property is already registered.
+2026-05-18 14:35:17.268 [warning] [edwinhuish.better-comments-next]: Cannot register 'better-comments.tags'. This property is already registered.
+2026-05-18 14:35:17.270 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2026-05-18 14:35:17.272 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2026-05-18 14:35:18.666 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-18 14:35:22.059 [info] [perf] Render performance baseline is 61ms
+2026-05-18 14:35:23.667 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-18 14:35:59.084 [error] [Extension Host] (node:3153) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-18 14:36:18.175 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-18 21:27:56.634 [error] rune error: Error: rune error
+	at handleResponse (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+	at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-05-18 21:47:44.147 [error] rune error: Error: rune error
+	at handleResponse (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+	at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-05-18 21:53:06.983 [error] rune error: Error: rune error
+	at handleResponse (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+	at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-05-18 22:32:25.552 [error] rune error: Error: rune error
+	at handleResponse (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+	at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-05-18 23:00:10.032 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-05-18 23:07:32.462 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.

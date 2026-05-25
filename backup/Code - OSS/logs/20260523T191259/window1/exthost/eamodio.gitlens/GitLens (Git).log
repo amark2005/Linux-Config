@@ -1,0 +1,39 @@
+2026-05-23 19:13:08.018 [error] [        103ms] [/home/amar/Code] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-05-23 19:13:08.411 [info] [         68ms] [/home/amar/Code/CAN] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-23 19:13:08.496 [info] [         25ms] [/home/amar/Code/batcheck] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-23 19:13:08.522 [info] [         15ms] [/home/amar/Code/first-contributions] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-23 19:13:08.544 [info] [         16ms] [/home/amar/Code/helotui] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-23 19:13:08.654 [info] [         28ms] [/home/amar/Code/http] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-23 19:13:08.708 [info] [         41ms] [/home/amar/Code/inflate] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-23 19:13:08.795 [info] [         28ms] [/home/amar/Code/inflate] git ls-files -- main.cpp • completed
+2026-05-23 19:13:09.082 [info] [         69ms] [/home/amar/Code/inflate] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-23 19:13:09.166 [info] [         13ms] [/home/amar/Code/CAN] git remote -v • completed
+2026-05-23 19:13:09.305 [info] [         85ms] [/home/amar/Code/CAN] git config --get -f /home/amar/Code/CAN/.git/gk/config gk.defaultRemote • completed
+2026-05-23 19:13:09.463 [info] [         30ms] [/home/amar/Code/batcheck] git remote -v • completed
+2026-05-23 19:13:09.497 [info] [         27ms] [/home/amar/Code/batcheck] git config --get -f /home/amar/Code/batcheck/.git/gk/config gk.defaultRemote • completed
+2026-05-23 19:13:09.662 [info] [         88ms] [/home/amar/Code/first-contributions] git remote -v • completed
+2026-05-23 19:13:09.700 [info] [         15ms] [/home/amar/Code/first-contributions] git config --get -f /home/amar/Code/first-contributions/.git/gk/config gk.defaultRemote • completed
+2026-05-23 19:13:09.769 [info] [          8ms] [/home/amar/Code/helotui] git remote -v • completed
+2026-05-23 19:13:09.794 [info] [         21ms] [/home/amar/Code/helotui] git config --get -f /home/amar/Code/helotui/.git/gk/config gk.defaultRemote • completed
+2026-05-23 19:13:09.852 [info] [         47ms] [/home/amar/Code/http] git remote -v • completed
+2026-05-23 19:13:09.899 [info] [         44ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config gk.defaultRemote • completed
+2026-05-23 19:13:09.964 [info] [         41ms] [/home/amar/Code/inflate] git remote -v • completed
+2026-05-23 19:13:09.999 [info] [         26ms] [/home/amar/Code/inflate] git config --get -f /home/amar/Code/inflate/.git/gk/config gk.defaultRemote • completed
+2026-05-23 19:13:43.817 [info] [         44ms] [/home/amar/Code/inflate] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-23 19:13:43.818 [info] [         46ms] [/home/amar/Code/http] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-23 19:13:43.819 [info] [         47ms] [/home/amar/Code/helotui] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-23 19:13:43.819 [info] [         49ms] [/home/amar/Code/batcheck] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-23 19:13:43.819 [info] [         50ms] [/home/amar/Code/CAN] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-23 19:13:43.825 [info] [         55ms] [/home/amar/Code/first-contributions] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-23 19:13:52.737 [info] [         12ms] [/home/amar/Code/inflate] git ls-files -- main.cpp • completed
+2026-05-23 19:14:02.927 [error] [         11ms] [/home/amar/Code/summa/coke] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-05-23 19:15:38.771 [info] [         16ms] [/home/amar/Code/inflate] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • completed
+2026-05-23 19:15:38.772 [info] [          8ms] [/home/amar/Code/inflate] git config --get-regex -f /home/amar/Code/inflate/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition)$ • completed
+2026-05-23 19:15:38.785 [error] [          9ms] [/home/amar/Code/inflate] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • FAILED
+Error: fatal: bad revision '@'
+2026-05-23 19:15:38.796 [info] [         10ms] [/home/amar/Code/inflate] git symbolic-ref --short HEAD • completed
+2026-05-23 19:15:38.808 [info] [         10ms] [/home/amar/Code/inflate] git log -n1 --format=%ct -- • completed
+2026-05-23 19:15:38.819 [info] [          8ms] [/home/amar/Code/inflate] git config --get -f /home/amar/Code/inflate/.git/gk/config branch.master.gk-last-accessed • completed
+2026-05-23 19:15:38.830 [info] [          9ms] [/home/amar/Code/inflate] git config -f /home/amar/Code/inflate/.git/gk/config branch.master.gk-last-accessed 2026-05-23T13:45:38.810Z • completed

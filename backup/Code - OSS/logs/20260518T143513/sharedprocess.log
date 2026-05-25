@@ -1,0 +1,6 @@
+2026-05-18 21:18:04.140 [info] Getting Manifest... golang.go
+2026-05-18 21:18:05.386 [info] Installing extension: golang.go {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/amar/.vscode-oss/extensions/extensions.json","path":"/home/amar/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.119.0","date":"2026-05-05T11:23:50-07:00"}}
+2026-05-18 21:18:09.693 [info] Extension signature verification result for golang.go: Success. Executed: true. Duration: 1460ms.
+2026-05-18 21:18:09.824 [info] Extracted extension to file:///home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal: golang.go
+2026-05-18 21:18:09.841 [info] Renamed to /home/amar/.vscode-oss/extensions/golang.go-0.52.2-universal
+2026-05-18 21:18:09.954 [info] Extension installed successfully: golang.go vscode-userdata:/home/amar/.vscode-oss/extensions/extensions.json

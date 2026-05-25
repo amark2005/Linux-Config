@@ -1,0 +1,6 @@
+2026-05-22 15:05:21.444 [info] Revived process, old id 74f64acfc164cb8bd4577a4b23e4fd3b-1 -> new id 1
+2026-05-22 15:05:22.752 [info] Expanding terminal instance, old id 74f64acfc164cb8bd4577a4b23e4fd3b-1 -> new id 1
+2026-05-22 15:05:24.012 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2026-05-22 15:05:24.013 [info] Persistent process reconnection "1"
+2026-05-22 15:05:24.171 [error] Failed to set sticky bit on /tmp/amar-code-oss-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/amar-code-oss-zsh'
+2026-05-22 15:05:24.234 [info] Persistent process "1": Replaying 7534 chars and 1 size events

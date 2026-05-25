@@ -1,0 +1,40 @@
+2026-05-20 14:05:47.320 [error] [        152ms] [/home/amar/Code] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-05-20 14:05:47.347 [info] [         15ms] [/home/amar/Code/CAN] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-20 14:05:47.372 [info] [         13ms] [/home/amar/Code/batcheck] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-20 14:05:47.389 [info] [         12ms] [/home/amar/Code/first-contributions] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-20 14:05:47.405 [info] [         12ms] [/home/amar/Code/helotui] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-20 14:05:47.492 [info] [         72ms] [/home/amar/Code/http] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-20 14:05:47.571 [info] [         26ms] [/home/amar/Code/http] git ls-files -- Readme.md • completed
+2026-05-20 14:05:47.592 [info] [         15ms] [/home/amar/Code/http] git config --get-regex ^user\.(name|email)$ • completed
+2026-05-20 14:05:47.640 [info] [         47ms] [/home/amar/Code/http] git check-mailmap Amar Keshav <amarkeshav14@gmail.com> • completed
+2026-05-20 14:05:47.660 [info] [→1           ] (spawn) [/home/amar/Code/http] git blame --root --incremental --encoding=utf-8 -- Readme.md • starting...
+2026-05-20 14:05:47.698 [info] [←1       48ms] (spawn) [/home/amar/Code/http] git blame --root --incremental --encoding=utf-8 -- Readme.md • completed
+2026-05-20 14:05:47.727 [info] [         25ms] [/home/amar/Code/http] git show --textconv HEAD:./Readme.md -- • completed
+2026-05-20 14:05:47.818 [info] [         61ms] [/home/amar/Code/CAN] git remote -v • completed
+2026-05-20 14:05:48.023 [info] [        137ms] [/home/amar/Code/CAN] git config --get -f /home/amar/Code/CAN/.git/gk/config gk.defaultRemote • completed
+2026-05-20 14:05:48.134 [info] [         47ms] [/home/amar/Code/batcheck] git remote -v • completed
+2026-05-20 14:05:48.210 [info] [         56ms] [/home/amar/Code/batcheck] git config --get -f /home/amar/Code/batcheck/.git/gk/config gk.defaultRemote • completed
+2026-05-20 14:05:48.283 [info] [         33ms] [/home/amar/Code/first-contributions] git remote -v • completed
+2026-05-20 14:05:48.355 [info] [         70ms] [/home/amar/Code/first-contributions] git config --get -f /home/amar/Code/first-contributions/.git/gk/config gk.defaultRemote • completed
+2026-05-20 14:05:48.389 [info] [         10ms] [/home/amar/Code/helotui] git remote -v • completed
+2026-05-20 14:05:48.471 [info] [         50ms] [/home/amar/Code/helotui] git config --get -f /home/amar/Code/helotui/.git/gk/config gk.defaultRemote • completed
+2026-05-20 14:05:48.503 [info] [         24ms] [/home/amar/Code/http] git remote -v • completed
+2026-05-20 14:05:48.623 [info] [        117ms] [/home/amar/Code/http] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-20 14:05:48.645 [info] [         20ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config gk.defaultRemote • completed
+2026-05-20 14:05:48.750 [info] [         68ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D --summary -n1 85c74c9060e7eef582e811a86991cea7042acae9^ -- Readme.md • completed
+2026-05-20 14:05:48.751 [info] [         74ms] [/home/amar/Code/http] git config --get-regex ^user\.(name|email)$ • completed
+2026-05-20 14:05:48.810 [info] [         58ms] [/home/amar/Code/http] git check-mailmap Amar Keshav <amarkeshav14@gmail.com> • completed
+2026-05-20 14:05:48.844 [info] [         33ms] [/home/amar/Code/http] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 85c74c9060e7eef582e811a86991cea7042acae9 -- • completed
+2026-05-20 14:05:48.893 [info] [         11ms] [/home/amar/Code/http] git remote -v • completed
+2026-05-20 14:06:17.246 [error] [         13ms] [/home/amar/Code/STEM] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-05-20 14:06:22.581 [info] [         31ms] [/home/amar/Code/helotui] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-20 14:06:22.581 [info] [         33ms] [/home/amar/Code/batcheck] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-20 14:06:22.581 [info] [         34ms] [/home/amar/Code/CAN] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-20 14:06:22.582 [info] [         32ms] [/home/amar/Code/http] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-20 14:06:22.598 [info] [         49ms] [/home/amar/Code/first-contributions] git rev-list --max-parents=0 HEAD -- • completed
+2026-05-20 14:08:17.554 [info] [         21ms] [/home/amar/Code/http] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • completed
+2026-05-20 14:08:17.555 [info] [         10ms] [/home/amar/Code/http] git config --get-regex -f /home/amar/Code/http/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition)$ • completed
+2026-05-20 14:08:17.569 [info] [          9ms] [/home/amar/Code/http] git config --get -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-accessed • completed
+2026-05-20 14:08:17.581 [info] [          9ms] [/home/amar/Code/http] git config -f /home/amar/Code/http/.git/gk/config branch.master.gk-last-accessed 2026-05-20T08:38:17.560Z • completed

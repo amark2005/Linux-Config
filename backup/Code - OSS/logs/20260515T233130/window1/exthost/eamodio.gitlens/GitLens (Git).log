@@ -1,0 +1,7 @@
+2026-05-15 23:31:36.237 [error] [         18ms] [/home/amar/Code/rustbaby] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-05-15 23:31:36.285 [info] [         45ms] [/home/amar/Code/rustbaby/trykaro] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-15 23:31:36.370 [info] [         17ms] [/home/amar/Code/rustbaby/trykaro] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-05-15 23:31:36.373 [info] [         10ms] [/home/amar/Code/rustbaby/trykaro] git remote -v • completed
+2026-05-15 23:31:36.393 [info] [          7ms] [/home/amar/Code/rustbaby/trykaro] git config --get-regex ^branch\..*\.gk- • completed
+2026-05-15 23:31:36.403 [info] [          8ms] [/home/amar/Code/rustbaby/trykaro] git config --get -f /home/amar/Code/rustbaby/trykaro/.git/gk/config gk.defaultRemote • completed

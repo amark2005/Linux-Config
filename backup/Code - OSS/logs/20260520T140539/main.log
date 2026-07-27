@@ -1,8 +1,0 @@
-2026-05-20 14:05:39.494 [info] StorageMainService: creating application shared storage
-2026-05-20 14:05:39.494 [info] StorageMainService: creating application shared storage with local application storage fallback
-2026-05-20 14:05:39.506 [info] [shared storage] Creating shared storage database at '/home/amar/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
-2026-05-20 14:05:39.507 [info] [shared storage] Initializing fallback application storage (type: local, path: /home/amar/.config/Code - OSS/User/globalStorage/state.vscdb)
-2026-05-20 14:05:39.573 [info] [shared storage] Fallback application storage initialized with 87 items
-2026-05-20 14:05:39.576 [info] update#setState disabled
-2026-05-20 14:05:39.576 [info] update#ctor - updates are disabled as there is no update URL
-2026-05-20 16:18:21.945 [info] Extension host with pid 12508 exited with code: 0, signal: unknown.

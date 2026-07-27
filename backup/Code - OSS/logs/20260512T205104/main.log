@@ -1,7 +1,0 @@
-2026-05-12 20:51:04.978 [info] StorageMainService: creating application shared storage
-2026-05-12 20:51:04.978 [info] StorageMainService: creating application shared storage with local application storage fallback
-2026-05-12 20:51:04.978 [info] [shared storage] Creating shared storage database at '/home/amar/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
-2026-05-12 20:51:04.978 [info] [shared storage] Initializing fallback application storage (type: local, path: /home/amar/.config/Code - OSS/User/globalStorage/state.vscdb)
-2026-05-12 20:51:04.993 [info] [shared storage] Fallback application storage initialized with 75 items
-2026-05-12 20:51:04.997 [info] update#setState disabled
-2026-05-12 20:51:04.998 [info] update#ctor - updates are disabled as there is no update URL

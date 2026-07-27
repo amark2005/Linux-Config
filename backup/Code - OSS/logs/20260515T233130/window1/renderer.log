@@ -1,9 +1,0 @@
-2026-05-15 23:31:32.252 [info] Started local extension host with pid 15663.
-2026-05-15 23:31:32.638 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
-2026-05-15 23:31:32.845 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
-2026-05-15 23:31:32.846 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
-2026-05-15 23:31:32.847 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
-2026-05-15 23:31:32.948 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
-2026-05-15 23:31:32.949 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
-2026-05-15 23:31:35.553 [info] [perf] Render performance baseline is 87ms
-2026-05-15 23:31:37.606 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

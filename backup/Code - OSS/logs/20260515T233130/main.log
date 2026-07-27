@@ -1,9 +1,0 @@
-2026-05-15 23:31:30.587 [info] StorageMainService: creating application shared storage
-2026-05-15 23:31:30.587 [info] StorageMainService: creating application shared storage with local application storage fallback
-2026-05-15 23:31:30.601 [info] [shared storage] Creating shared storage database at '/home/amar/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
-2026-05-15 23:31:30.601 [info] [shared storage] Initializing fallback application storage (type: local, path: /home/amar/.config/Code - OSS/User/globalStorage/state.vscdb)
-2026-05-15 23:31:30.635 [info] [shared storage] Fallback application storage initialized with 76 items
-2026-05-15 23:31:30.641 [info] update#setState disabled
-2026-05-15 23:31:30.641 [info] update#ctor - updates are disabled as there is no update URL
-2026-05-15 23:32:08.379 [info] Extension host with pid 15663 exited with code: 0, signal: unknown.
-2026-05-15 23:32:08.493 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 15635]: crashed with code 15 and reason 'killed'

@@ -1,0 +1,27 @@
+info: ghostty version=1.3.1-arch2
+info: ghostty build optimize=ReleaseFast
+info: runtime=.gtk
+info: font_backend=.fontconfig_freetype
+info: dependency harfbuzz=14.2.0
+info: dependency fontconfig=21701
+info: renderer=renderer.generic.Renderer(renderer.OpenGL)
+info: libxev default backend=io_uring
+info(os_locale): setlocale from env result=en_IN.UTF-8
+info(gtk): GTK version build=4.22.2 runtime=4.22.4
+info(gtk): libadwaita version build=1.9.0 runtime=1.9.0
+info(config): creating template config file: path=/home/amar/.config/ghostty/config.ghostty
+info(config): default shell src=passwd value=/usr/bin/bash
+info(config): default working directory src=passwd value=/home/amar
+warning(gtk_ghostty_application): setting GDK_DEBUG=
+warning(gtk_ghostty_application): setting GDK_DISABLE=gles-api,vulkan
+warning(glib): WARNING: Gdk: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+warning(glib): WARNING: Adwaita: The resource style-dark.css is deprecated and shouldn't be used anymore. Use style.css with media queries instead.
+warning(glib): WARNING: Adwaita: The resource style-hc.css is deprecated and shouldn't be used anymore. Use style.css with media queries instead.
+warning(glib): WARNING: Adwaita: The resource style-hc-dark.css is deprecated and shouldn't be used anymore. Use style.css with media queries instead.
+info(opengl): loaded OpenGL 4.6
+info(io_exec): found Ghostty resources dir: /usr/share/ghostty
+info(io_exec): shell integration automatically injected shell=.bash
+warning(gtk_ghostty_application): unimplemented action=.cell_size
+info(io_exec): started subcommand path=/bin/sh pid=35323
+info(io_exec): pty fd closed, read thread exiting
+info(surface): surface closed addr=55a424283c90

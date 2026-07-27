@@ -1,0 +1,19 @@
+default-timeout=3000
+
+background-color=#1a1b26dd
+text-color=#c0caf5ff
+border-color=#7aa2f7ff
+border-size=2
+border-radius=10
+
+padding=12
+margin=10
+
+font=JetBrainsMono Nerd Font 10
+
+anchor=top-right
+
+max-visible=3
+
+icons=1
+markup=1

@@ -1,0 +1,4 @@
+#!/bin/sh
+D="$HOME/GoogleDrive"
+mountpoint -q "$D" && fusermount -u "$D" && echo "unmounted" || \
+{ mkdir -p "$D"; rclone mount gdrive: "$D" --vfs-cache-mode writes --daemon && echo "mounted"; }

@@ -17,7 +17,9 @@ autoload -Uz _zinit
 # export
 #export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 #[[ -f ~/.zprofile ]] && source ~/.zprofile
-
+export TERMINAL=ghostty
+export EDITOR=nvim
+export VISUAL=nvim
 
 # plugins
 zinit light zsh-users/zsh-autosuggestions
@@ -60,12 +62,12 @@ setopt hist_ignore_dups
 setopt hist_verify
 
 # alias
-alias ls='eza --icons'
+alias ls='eza --icons=always'
 # alias glog ='git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all'
 #alias lh='eza -a'
 alias cat='bat'
 alias grep='rg'
-alias dnf='dnf5'
+
 # fzf
 source <(fzf --zsh)
 
@@ -73,5 +75,9 @@ source <(fzf --zsh)
 export LANG="en_IN.UTF-8"
 export LANGUAGE="en_IN.UTF-8:en_US.UTF-8"
 export LC_ALL="en_IN.UTF-8"
+export PATH=$PATH:$(go env GOPATH)/bin
 
 fastfetch
+
+. "$HOME/.local/bin/env"
+export PATH="$HOME/bin:$PATH"

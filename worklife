@@ -1,3 +1,4 @@
 #!/bin/bash
-firejail --private=/home/amar/.config/brave-work \
-  brave --user-data-dir=/home/amar/.config/brave-work/brave
+firejail --noprofile \
+  --private="$HOME/.config/brave-work" \
+  brave-origin --user-data-dir=/BraveProfile
